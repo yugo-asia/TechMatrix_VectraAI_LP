@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+// Configuration
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
 //----------------------------------------------
 html{
   scroll-behavior: smooth;
@@ -12,7 +18,7 @@ body {
 
 .sp {
   display: none !important;
-
+  
   @media (max-width: 769px) {
     display: inline-block !important;
   }
@@ -45,7 +51,7 @@ body {
         }
       }
     }
-    
+
     .contents {
       section {
         padding: 0;
@@ -229,7 +235,7 @@ body {
     &:hover {
       filter: brightness(1.07);
     }
-  
+
     img {
       width: 135px !important;
 
