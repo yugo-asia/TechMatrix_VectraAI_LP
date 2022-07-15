@@ -37,6 +37,11 @@ body {
 .theme-fo-base .wrapper .contents section a img:hover {
   opacity: 1;
 }
+@media (max-width: 769px) {
+  .theme-fo-base .wrapper .contents .inner .row .col {
+    width: auto !important;
+  }
+}
 .theme-fo-base .wrapper .contents .col .component {
   margin: 0;
 }

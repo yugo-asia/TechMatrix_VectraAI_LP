@@ -45,6 +45,7 @@ body {
         }
       }
     }
+    
     .contents {
       section {
         padding: 0;
@@ -53,6 +54,16 @@ body {
           img {
             &:hover {
               opacity: 1;
+            }
+          }
+        }
+      }
+
+      .inner {
+        .row {
+          .col {
+            @media (max-width: 769px) {
+              width: auto !important;
             }
           }
         }
