@@ -19,6 +19,9 @@ body {
 .theme-fo-base .wrapper .contents section {
   padding: 0;
 }
+.theme-fo-base .wrapper .contents section a img:hover {
+  opacity: 1;
+}
 .theme-fo-base .wrapper .contents .col .component {
   margin: 0;
 }

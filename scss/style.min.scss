@@ -34,6 +34,14 @@ body {
     .contents {
       section {
         padding: 0;
+
+        a {
+          img {
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
       }
 
       .col {
