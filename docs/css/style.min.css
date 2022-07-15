@@ -41,6 +41,9 @@ body {
     width: 88px !important;
   }
 }
+.section-fv .logo-vectra img {
+  width: 208px !important;
+}
 .section-fv .main {
   margin-top: 70px !important;
 }
