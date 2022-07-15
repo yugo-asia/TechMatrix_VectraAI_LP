@@ -13,6 +13,9 @@ body {
 .theme-fo-base a:hover {
   opacity: 1;
 }
+.theme-fo-base .wrapper.none .contents .inner {
+  max-width: 1260px;
+}
 .theme-fo-base .wrapper .contents section {
   padding: 0;
 }
@@ -28,12 +31,18 @@ body {
   filter: brightness(1.07);
 }
 .section-fv .logo img {
-  width: 135px;
+  width: 135px !important;
 }
 @media (max-width: 768px) {
   .section-fv .logo img {
     width: 88px !important;
   }
+}
+.section-fv .main {
+  margin-top: 70px !important;
+}
+.section-fv .main img {
+  width: 898px !important;
 }
 
 @media (max-width: 768px) {
