@@ -159,6 +159,11 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 }
+@media (max-width: 769px) {
+  .section-fv .row-1 {
+    display: flex !important;
+  }
+}
 .section-fv .logo:hover {
   filter: brightness(1.07);
 }

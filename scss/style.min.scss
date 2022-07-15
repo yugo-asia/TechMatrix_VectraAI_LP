@@ -205,6 +205,12 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 
+  .row-1 {
+    @media (max-width: 769px) {
+      display: flex !important;
+    }
+  }
+
   .logo {
     &:hover {
       filter: brightness(1.07);
