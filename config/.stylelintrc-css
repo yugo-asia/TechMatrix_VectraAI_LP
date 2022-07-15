@@ -1,0 +1,41 @@
+{
+    "plugins": [
+        "stylelint-plugins"
+    ],
+    "rules": {
+        "stylelint-plugins/no-duplicate-selector": {
+            "ignoreIndexOfMatch": [
+                ".badge",
+                ".bg-",
+                ".breadcrumb",
+                ".btn-",
+                ".form-container",
+                ".dropdown",
+                ".label",
+                ".list-group",
+                ".list-inline",
+                ".media",
+                ".navbar",
+                ".page-header",
+                ".pagination",
+                ".panel",
+                ".thumbnail",
+                ".well",
+                "body",
+                "fieldset",
+                "figure",
+                "hr",
+                "html",
+                "img",
+                "input",
+                "label",
+                "legend",
+                "mark",
+                "table"
+            ],
+            "ignoreStrictEquality": [
+                "a"
+            ]
+        }
+    }
+}

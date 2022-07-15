@@ -1,0 +1,96 @@
+{
+    "extends": "stylelint-config-standard",
+    "plugins": [
+        "stylelint-order",
+        "stylelint-plugins"
+    ],
+    "rules": {
+        "font-family-no-missing-generic-family-keyword": null,
+        "at-rule-no-unknown": null,
+        "no-descending-specificity": null,
+        "declaration-empty-line-before": null,
+        "declaration-property-value-disallowed-list": [
+            {
+                "min-height": [
+                    "auto"
+                ]
+            }
+        ],
+        "color-hex-length": null,
+        "selector-pseudo-element-colon-notation": "single",
+        "number-leading-zero": "never",
+        "no-duplicate-selectors": true,
+        "function-name-case": [
+            "lower",
+            {
+                "ignoreFunctions": [
+                    "/DXImageTransform/"
+                ]
+            }
+        ],
+        "value-keyword-case": [
+            "lower",
+            {
+                "ignoreProperties": [
+                    "$font-family-sans-serif",
+                    "$font-family-serif"
+                ]
+            }
+        ],
+        "order/order": [
+            "dollar-variables",
+            "declarations",
+            {
+                "type": "rule",
+                "selector": "/^&/"
+            },
+            {
+                "type": "at-rule",
+                "name": "media"
+            },
+            "rules"
+        ],
+        "stylelint-plugins/selector-blacklist": {
+            "blacklist": [
+                ".ga",
+                ".group",
+                ".group-button",
+                ".hoge",
+                ".sector",
+                ".main",
+                ".menu",
+                ".brand",
+                ".content",
+                ".contents",
+                ".txt",
+                ".button",
+                ".text-align",
+                ".container-btn",
+                ".container-label",
+                ".list",
+                ".space"
+            ]
+        },
+        "stylelint-plugins/file-name-match": {
+            "selectorAndFileNameMap": {
+                "body": "_scaffolding.scss",
+                ".nav": "_navs.scss",
+                ".navbar": "_navs.scss",
+                ".btn": "_buttons.scss",
+                ".pagination": "_pagination.scss",
+                ".list-group": "_list-group.scss",
+                ".media": "_media.scss",
+                ".panel": "_panels.scss",
+                ".table": "_tables.scss",
+                ".breadcrumb": "_breadcrumbs.scss",
+                ".title": "_title.scss",
+                ".hr": "_scaffolding.scss",
+                ".text": "_type.scss",
+                ".section": "_section.scss",
+                ".label": "_labels.scss",
+                ".thumbnail": "_thumbnails.scss"
+            }
+        },
+        "stylelint-plugins/media-query-variables": true
+    }
+}

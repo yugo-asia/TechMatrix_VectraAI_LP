@@ -1,0 +1,28 @@
+{
+    "format": {
+        "breaks": {
+            "afterAtRule": true,
+            "afterBlockBegins": true,
+            "afterBlockEnds": true,
+            "afterComment": true,
+            "afterProperty": true,
+            "afterRuleBegins": true,
+            "afterRuleEnds": true,
+            "beforeBlockEnds": true,
+            "betweenSelectors": true
+        },
+        "indentBy": 2,
+        "indentWith": "space",
+        "spaces": {
+            "aroundSelectorRelation": true,
+            "beforeBlockBegins": true,
+            "beforeValue": true
+        },
+        "wrapAt": false
+    },
+    "level": {
+        "2": {
+            "mergeMedia": false
+        }
+    }
+}

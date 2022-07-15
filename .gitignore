@@ -1,0 +1,19 @@
+# https://git-scm.com/docs/gitignore
+# For example, "a/**/b" matches "a/b", "a/x/b", "a/x/y/b
+
+.DS_Store
+Thumbs.db
+node_modules
+/vendor
+*.css.map
+*.js.map
+.idea
+.vscode
+.vs
+.bower.json
+*.rej
+npm-debug.log
+package-lock.json
+sh.exe.stackdump
+.php-cs-fixer.cache
+.deploy

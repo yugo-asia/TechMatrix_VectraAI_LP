@@ -1,0 +1,19 @@
+[*.{html,htm,php,json,ejs}]
+indent_style = space
+indent_size = 4
+
+[*.scss]
+indent_style = space
+indent_size = 2
+
+[*.css]
+indent_style = space
+indent_size = 2
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[.{*rc,stylelintrc-css}]
+indent_style = space
+indent_size = 4

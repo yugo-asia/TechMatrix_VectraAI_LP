@@ -1,0 +1,46 @@
+{
+    "attr-bans": [
+        "align",
+        "background",
+        "bgcolor",
+        "border",
+        "longdesc",
+        "marginwidth",
+        "marginheight",
+        "scrolling",
+        "style"
+    ],
+    "attr-name-style": false,
+    "attr-validate": false,
+    "id-class-no-ad": false,
+    "attr-order": [
+        "type",
+        "name",
+        "value",
+        "for",
+        "size",
+        "href",
+        "rel",
+        "src",
+        "alt",
+        "width",
+        "height",
+        "placeholder",
+        "id",
+        "class",
+        "required"
+    ],
+    "id-class-style": false,
+    "class-style": "dash",
+    "href-style": false,
+    "img-req-alt": "",
+    "indent-style": "spaces",
+    "spec-char-escape": true,
+    "line-end-style": false,
+    "tag-bans": [
+        "b"
+    ],
+    "title-max-len": false,
+    "title-no-dup": true,
+    "link-req-noopener": false
+}
