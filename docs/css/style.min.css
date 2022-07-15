@@ -26,6 +26,64 @@ body {
   margin: 0;
 }
 
+.btn-fixed {
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  top: 22%;
+  width: auto;
+}
+@media (max-width: 768px) {
+  .btn-fixed {
+    bottom: 75px;
+    top: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.btn-fixed.btn-fixed-yellow {
+  top: calc(22% + 193px);
+}
+@media (max-width: 768px) {
+  .btn-fixed.btn-fixed-yellow {
+    top: auto;
+    bottom: 16px;
+  }
+}
+.btn-fixed.btn-fixed-yellow .button-cont a {
+  background-color: #f8cf01 !important;
+  background-image: url("https://ferret-one.akamaized.net/images/62ccce3ed7de4040b91ee895/original.png") !important;
+  background-size: 26px auto !important;
+  background-position: top 11px center !important;
+  color: #333333;
+  letter-spacing: 0.17em;
+  padding-bottom: 10px !important;
+  padding-top: 49px !important;
+}
+.btn-fixed.btn-fixed-yellow .button-cont a:hover {
+  background-color: #ffe771 !important;
+}
+@media (min-width: 769px) {
+  .btn-fixed .button-cont a {
+    background-color: #c61019 !important;
+    background-image: url("https://ferret-one.akamaized.net/images/62c4ea7bd6103842f0e2dd4e/original.png") !important;
+    background-position: top 18px center !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px auto !important;
+    padding: 54px 17px 18px !important;
+    width: 60px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    writing-mode: vertical-lr;
+  }
+  .btn-fixed .button-cont a:hover {
+    opacity: 1 !important;
+    background-color: #db000c !important;
+  }
+}
+
 .section-fv {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
@@ -43,12 +101,13 @@ body {
 }
 .section-fv .logo-vectra {
   text-align: right;
+  margin-top: 4px !important;
 }
 .section-fv .logo-vectra img {
   width: 208px !important;
 }
 .section-fv .main {
-  margin-top: 70px !important;
+  margin-top: 60px !important;
 }
 .section-fv .main img {
   width: 898px !important;
