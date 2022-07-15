@@ -206,7 +206,7 @@ body {
 }
 @media (max-width: 769px) {
   .section-fv .main {
-    margin-top: 24px;
+    margin-top: 24px !important;
   }
 }
 .section-fv .main img {
