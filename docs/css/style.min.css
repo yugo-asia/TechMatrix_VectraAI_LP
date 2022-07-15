@@ -4318,7 +4318,7 @@ body {
   vertical-align: -2px;
 }
 
-.frame-root .sp {
+.frame-root .d-block.d-sm-none {
   display: block !important;
 }
 /*# sourceMappingURL=style.min.css.map */

@@ -337,7 +337,7 @@ body {
 // Admin page
 // If .sp is display: none;, can not edit mobile html on admin page.
 .frame-root {
-  .sp {
+  .d-block.d-sm-none {
     display: block !important;
   }
 }
