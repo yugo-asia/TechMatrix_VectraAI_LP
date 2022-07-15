@@ -68,6 +68,11 @@ body {
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  .btn-fixed a img {
+    width: 335px !important;
+  }
+}
 .btn-fixed.btn-fixed-yellow {
   top: calc(22% + 194px);
 }

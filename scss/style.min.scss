@@ -101,6 +101,14 @@ body {
     text-align: center;
   }
 
+  a {
+    img {
+      @media (max-width: 768px) {
+        width: 335px !important;
+      }
+    }
+  }
+
   &.btn-fixed-yellow {
     top: calc(22% + 194px);
 
