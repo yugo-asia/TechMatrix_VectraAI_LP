@@ -149,6 +149,11 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 }
+@media (max-width: 768px) {
+  .section-fv .row-1 .col {
+    width: 50% !important;
+  }
+}
 .section-fv .logo:hover {
   filter: brightness(1.07);
 }
@@ -166,6 +171,11 @@ body {
 }
 .section-fv .logo-vectra img {
   width: 208px !important;
+}
+@media (max-width: 768px) {
+  .section-fv .logo-vectra {
+    width: 116px !important;
+  }
 }
 .section-fv .main {
   margin-top: 60px !important;

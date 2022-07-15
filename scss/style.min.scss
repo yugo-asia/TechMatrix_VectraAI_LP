@@ -188,6 +188,14 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 
+  .row-1 {
+    .col {
+      @media (max-width: 768px) {
+        width: 50% !important;
+      }
+    }
+  }
+
   .logo {
     &:hover {
       filter: brightness(1.07);
@@ -208,6 +216,10 @@ body {
 
     img {
       width: 208px !important;
+    }
+    
+    @media (max-width: 768px) {
+      width: 116px !important;
     }
   }
 
