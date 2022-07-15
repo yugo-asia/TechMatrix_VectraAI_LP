@@ -6,6 +6,21 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.sp {
+  display: none !important;
+}
+@media (max-width: 768px) {
+  .sp {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .pc {
+    display: none !important;
+  }
+}
+
 .component.image {
   margin: 0;
 }
