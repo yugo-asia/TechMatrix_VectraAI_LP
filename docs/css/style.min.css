@@ -160,6 +160,11 @@ body {
   padding-bottom: 25px !important;
 }
 @media (max-width: 769px) {
+  .section-fv {
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 769px) {
   .section-fv .row-1 {
     display: flex !important;
   }
@@ -177,7 +182,11 @@ body {
 }
 .section-fv .logo-vectra {
   text-align: right;
-  margin-top: 4px !important;
+}
+@media (min-width: 770px) {
+  .section-fv .logo-vectra {
+    margin-top: 4px !important;
+  }
 }
 .section-fv .logo-vectra img {
   width: 208px !important;
@@ -189,6 +198,11 @@ body {
 }
 .section-fv .main {
   margin-top: 60px !important;
+}
+@media (max-width: 769px) {
+  .section-fv .main {
+    margin-top: 24px;
+  }
 }
 .section-fv .main img {
   width: 898px !important;

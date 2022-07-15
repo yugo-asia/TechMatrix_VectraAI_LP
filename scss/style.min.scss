@@ -205,6 +205,10 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 
+  @media (max-width: 769px) {
+    padding-top: 0 !important;
+  }
+
   .row-1 {
     @media (max-width: 769px) {
       display: flex !important;
@@ -227,7 +231,10 @@ body {
 
   .logo-vectra {
     text-align: right;
-    margin-top: 4px !important;
+
+    @media (min-width: 770px) {
+      margin-top: 4px !important;
+    }
 
     img {
       width: 208px !important;
@@ -240,6 +247,10 @@ body {
 
   .main {
     margin-top: 60px !important;
+
+    @media (max-width: 769px) {
+      margin-top: 24px;
+    }
 
     img {
       width: 898px !important;
