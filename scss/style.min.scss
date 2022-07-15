@@ -10,9 +10,20 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.theme-fo-base {
+  .wrapper {
+    .contents {
+      section {
+        padding: 0;
+      }
+    }
+  }
+}
+
 //----------------------------------------------
 .section-fv {
-  
+  padding-top: 21px;
+  padding-bottom: 25px;
 }
 
 //----------------------------------------------
@@ -94,3 +105,4 @@ body {
     display: block !important;
   }
 }
+@import url('https://yugo-asia.github.io/Techmatrix_LP_Proofpoint_ferretOne/css/style.min.css');
