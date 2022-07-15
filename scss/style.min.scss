@@ -201,8 +201,10 @@ body {
 
   .row-1 {
     .col {
-      @media (max-width: 768px) {
-        width: 50% !important;
+      &.col-50 {
+        @media (max-width: 768px) {
+          width: 50% !important;
+        }
       }
     }
   }

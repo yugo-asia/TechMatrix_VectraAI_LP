@@ -155,7 +155,7 @@ body {
   padding-bottom: 25px !important;
 }
 @media (max-width: 768px) {
-  .section-fv .row-1 .col {
+  .section-fv .row-1 .col.col-50 {
     width: 50% !important;
   }
 }
