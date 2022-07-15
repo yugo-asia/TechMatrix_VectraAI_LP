@@ -41,6 +41,9 @@ body {
     width: 88px !important;
   }
 }
+.section-fv .logo-vectra {
+  text-align: right;
+}
 .section-fv .logo-vectra img {
   width: 208px !important;
 }
