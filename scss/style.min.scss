@@ -10,11 +10,29 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.component{
+  &.image {
+    margin: 0;
+  }
+}
+
 .theme-fo-base {
+  a {
+    &:hover {
+      opacity: 1;
+    }
+  }
+
   .wrapper {
     .contents {
       section {
         padding: 0;
+      }
+
+      .col {
+        .component {
+          margin: 0;
+        }
       }
     }
   }
@@ -24,6 +42,20 @@ body {
 .section-fv {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
+
+  .logo {
+    &:hover {
+      filter: brightness(1.07);
+    }
+  
+    img {
+      width: 135px;
+
+      @media (max-width: 768px) {
+        width: 88px !important;
+      }
+    }
+  }
 }
 
 //----------------------------------------------

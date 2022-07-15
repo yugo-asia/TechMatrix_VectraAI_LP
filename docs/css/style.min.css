@@ -6,13 +6,34 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.component.image {
+  margin: 0;
+}
+
+.theme-fo-base a:hover {
+  opacity: 1;
+}
 .theme-fo-base .wrapper .contents section {
   padding: 0;
+}
+.theme-fo-base .wrapper .contents .col .component {
+  margin: 0;
 }
 
 .section-fv {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
+}
+.section-fv .logo:hover {
+  filter: brightness(1.07);
+}
+.section-fv .logo img {
+  width: 135px;
+}
+@media (max-width: 768px) {
+  .section-fv .logo img {
+    width: 88px !important;
+  }
 }
 
 @media (max-width: 768px) {
