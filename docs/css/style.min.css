@@ -60,7 +60,7 @@ body {
 }
 @media (max-width: 769px) {
   .btn-fixed {
-    bottom: 75px;
+    bottom: 64px;
     top: auto;
     left: 0;
     right: 0;
