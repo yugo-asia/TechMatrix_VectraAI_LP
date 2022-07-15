@@ -119,6 +119,57 @@ body {
 }
 
 //----------------------------------------------
+.to-top {
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  bottom: 0;
+  width: auto;
+
+  @media (max-width: 768px) {
+    bottom: 133px;
+    right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  a {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: block;
+
+    @media (max-width: 768px) {
+      width: 45px;
+      height: 45px;
+    }
+
+    &:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url("https://ferret-one.akamaized.net/images/62c684f36fec9553b2bd7da5/original.png") no-repeat center center/cover;
+      visibility: hidden;
+    }
+
+    &:hover {
+      opacity: 1 !important;
+
+      &:after {
+        visibility: visible;
+      }
+
+      img {
+        visibility: hidden;
+      }
+    }
+  }
+}
+
+//----------------------------------------------
 .section-fv {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
