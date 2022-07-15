@@ -68,7 +68,7 @@ body {
       .inner {
         .row {
           .col {
-            @media (max-width: 769px) {
+            @include media-breakpoint-down(md) {
               width: auto !important;
             }
 
