@@ -16,20 +16,6 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-.sp {
-  display: none !important;
-
-  @include media-breakpoint-down(md) {
-    display: inline-block !important;
-  }
-}
-
-.pc {
-  @include media-breakpoint-down(md) {
-    display: none !important;
-  }
-}
-
 //----------------------------------------------
 .component {
   &.image {
