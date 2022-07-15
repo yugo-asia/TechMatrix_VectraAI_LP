@@ -19,13 +19,13 @@ body {
 .sp {
   display: none !important;
 
-  @media (max-width: 769px) {
+  @include media-breakpoint-down(md) {
     display: inline-block !important;
   }
 }
 
 .pc {
-  @media (max-width: 769px) {
+  @include media-breakpoint-down(md) {
     display: none !important;
   }
 }
@@ -70,12 +70,8 @@ body {
       .inner {
         .row {
           .col {
-            @include media-breakpoint-down(md) {
-              width: auto !important;
-            }
-
             &.col-50 {
-              @media (max-width: 769px) {
+              @include media-breakpoint-down(md) {
                 width: 50% !important;
               }
             }
@@ -100,7 +96,7 @@ body {
   top: 22%;
   width: auto;
 
-  @media (max-width: 769px) {
+  @include media-breakpoint-down(md) {
     bottom: 64px;
     top: auto;
     left: 0;
@@ -112,7 +108,7 @@ body {
   &.btn-fixed-yellow {
     top: calc(22% + 194px);
 
-    @media (max-width: 769px) {
+    @include media-breakpoint-down(md) {
       top: auto;
       bottom: 16px;
     }
@@ -144,7 +140,7 @@ body {
 
   .button-cont {
     a {
-      @media (min-width: 770px) {
+      @include media-breakpoint-up(md) {
         display: block;
         background-color: #c61019 !important;
         background-image: url("https://ferret-one.akamaized.net/images/62c4ea7bd6103842f0e2dd4e/original.png") !important;
@@ -173,7 +169,7 @@ body {
   bottom: 0;
   width: auto;
 
-  @media (max-width: 769px) {
+  @include media-breakpoint-down(md) {
     bottom: 133px;
     right: 0;
     margin-top: 0;
@@ -186,7 +182,7 @@ body {
     position: relative;
     display: block;
 
-    @media (max-width: 769px) {
+    @include media-breakpoint-down(md) {
       width: 45px;
       height: 45px;
     }
@@ -221,14 +217,14 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 
-  @media (max-width: 769px) {
+  @include media-breakpoint-down(md) {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     height: 100vh;
   }
 
   .row-1 {
-    @media (max-width: 769px) {
+    @include media-breakpoint-down(md) {
       display: flex !important;
     }
   }
@@ -241,7 +237,7 @@ body {
     img {
       width: 135px !important;
 
-      @media (max-width: 769px) {
+      @include media-breakpoint-down(md) {
         width: 88px !important;
       }
     }
@@ -250,14 +246,14 @@ body {
   .logo-vectra {
     text-align: right;
 
-    @media (min-width: 770px) {
+    @include media-breakpoint-down(md) {
       margin-top: 4px !important;
     }
 
     img {
       width: 208px !important;
 
-      @media (max-width: 769px) {
+      @include media-breakpoint-down(md) {
         width: 116px !important;
       }
     }
@@ -266,7 +262,7 @@ body {
   .main {
     margin-top: 60px !important;
 
-    @media (max-width: 769px) {
+    @include media-breakpoint-down(md) {
       margin-top: 24px !important;
     }
 
@@ -278,7 +274,7 @@ body {
 
 //----------------------------------------------
 .footer {
-  @media (max-width: 769px) {
+  @include media-breakpoint-down(md) {
     padding: 5px 0 50px !important;
   }
 

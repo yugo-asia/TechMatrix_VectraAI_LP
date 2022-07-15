@@ -9,13 +9,13 @@ body {
 .sp {
   display: none !important;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .sp {
     display: inline-block !important;
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .pc {
     display: none !important;
   }
@@ -38,11 +38,6 @@ body {
   opacity: 1;
 }
 @media (max-width: 767.98px) {
-  .theme-fo-base .wrapper .contents .inner .row .col {
-    width: auto !important;
-  }
-}
-@media (max-width: 769px) {
   .theme-fo-base .wrapper .contents .inner .row .col.col-50 {
     width: 50% !important;
   }
@@ -58,7 +53,7 @@ body {
   top: 22%;
   width: auto;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .btn-fixed {
     bottom: 64px;
     top: auto;
@@ -71,7 +66,7 @@ body {
 .btn-fixed.btn-fixed-yellow {
   top: calc(22% + 194px);
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .btn-fixed.btn-fixed-yellow {
     top: auto;
     bottom: 16px;
@@ -94,7 +89,7 @@ body {
     width: 335px !important;
   }
 }
-@media (min-width: 770px) {
+@media (min-width: 768px) {
   .btn-fixed .button-cont a {
     display: block;
     background-color: #c61019 !important;
@@ -120,7 +115,7 @@ body {
   bottom: 0;
   width: auto;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .to-top {
     bottom: 133px;
     right: 0;
@@ -134,7 +129,7 @@ body {
   position: relative;
   display: block;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .to-top a {
     width: 45px;
     height: 45px;
@@ -164,14 +159,14 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .section-fv {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     height: 100vh;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .section-fv .row-1 {
     display: flex !important;
   }
@@ -182,7 +177,7 @@ body {
 .section-fv .logo img {
   width: 135px !important;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .section-fv .logo img {
     width: 88px !important;
   }
@@ -190,7 +185,7 @@ body {
 .section-fv .logo-vectra {
   text-align: right;
 }
-@media (min-width: 770px) {
+@media (max-width: 767.98px) {
   .section-fv .logo-vectra {
     margin-top: 4px !important;
   }
@@ -198,7 +193,7 @@ body {
 .section-fv .logo-vectra img {
   width: 208px !important;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .section-fv .logo-vectra img {
     width: 116px !important;
   }
@@ -206,7 +201,7 @@ body {
 .section-fv .main {
   margin-top: 60px !important;
 }
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .section-fv .main {
     margin-top: 24px !important;
   }
@@ -215,7 +210,7 @@ body {
   width: 898px !important;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 767.98px) {
   .footer {
     padding: 5px 0 50px !important;
   }
