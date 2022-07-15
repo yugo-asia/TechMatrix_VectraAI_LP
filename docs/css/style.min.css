@@ -9,13 +9,13 @@ body {
 .sp {
   display: none !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .sp {
     display: inline-block !important;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .pc {
     display: none !important;
   }
@@ -42,6 +42,11 @@ body {
     width: auto !important;
   }
 }
+@media (max-width: 769px) {
+  .theme-fo-base .wrapper .contents .inner .row .col.col-50 {
+    width: 50% !important;
+  }
+}
 .theme-fo-base .wrapper .contents .col .component {
   margin: 0;
 }
@@ -53,7 +58,7 @@ body {
   top: 22%;
   width: auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .btn-fixed {
     bottom: 75px;
     top: auto;
@@ -66,7 +71,7 @@ body {
 .btn-fixed.btn-fixed-yellow {
   top: calc(22% + 194px);
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .btn-fixed.btn-fixed-yellow {
     top: auto;
     bottom: 16px;
@@ -84,7 +89,7 @@ body {
 .btn-fixed.btn-fixed-yellow .button-cont a:hover {
   background-color: #ffe771 !important;
 }
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .btn-fixed .button-cont a {
     display: block;
     background-color: #c61019 !important;
@@ -110,7 +115,7 @@ body {
   bottom: 0;
   width: auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .to-top {
     bottom: 133px;
     right: 0;
@@ -124,7 +129,7 @@ body {
   position: relative;
   display: block;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .to-top a {
     width: 45px;
     height: 45px;
@@ -154,18 +159,13 @@ body {
   padding-top: 21px !important;
   padding-bottom: 25px !important;
 }
-@media (max-width: 768px) {
-  .section-fv .row-1 .col.col-50 {
-    width: 50% !important;
-  }
-}
 .section-fv .logo:hover {
   filter: brightness(1.07);
 }
 .section-fv .logo img {
   width: 135px !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .section-fv .logo img {
     width: 88px !important;
   }
@@ -177,7 +177,7 @@ body {
 .section-fv .logo-vectra img {
   width: 208px !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .section-fv .logo-vectra img {
     width: 116px !important;
   }
@@ -189,7 +189,7 @@ body {
   width: 898px !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .footer {
     padding: 5px 0 50px !important;
   }
