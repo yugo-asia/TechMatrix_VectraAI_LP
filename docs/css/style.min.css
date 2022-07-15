@@ -173,7 +173,7 @@ body {
   width: 208px !important;
 }
 @media (max-width: 768px) {
-  .section-fv .logo-vectra {
+  .section-fv .logo-vectra img {
     width: 116px !important;
   }
 }

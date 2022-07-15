@@ -216,10 +216,10 @@ body {
 
     img {
       width: 208px !important;
-    }
-    
-    @media (max-width: 768px) {
-      width: 116px !important;
+
+      @media (max-width: 768px) {
+        width: 116px !important;
+      }
     }
   }
 
