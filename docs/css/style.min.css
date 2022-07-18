@@ -4604,13 +4604,16 @@ body,
 .section-common .point-number {
   text-align: center;
 }
+.section-common .point-image {
+  text-align: center;
+}
 .section-common img {
   width: auto !important;
 }
 .section-common .point-note {
   max-width: 649px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: auto !important;
+  margin-left: auto !important;
   background-color: #4a8c2b;
   border-radius: 10px;
 }

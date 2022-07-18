@@ -654,14 +654,18 @@ body,
     text-align: center;
   }
 
+  .point-image {
+    text-align: center;
+  }
+
   img {
     width: auto !important;
   }
 
   .point-note {
     max-width: 649px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
     background-color: #4a8c2b;
     border-radius: 10px;
 
