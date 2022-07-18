@@ -561,7 +561,6 @@ body,
 
         &:after {
           border-top-color: #4a8c2b;
-          transition: .3s;
         }
       }
 
@@ -578,6 +577,7 @@ body,
         border-width: 43px 23.5px 0 23.5px;
         border-color: #3a6f33 transparent transparent transparent;
         content: "";
+        transition: .3s;
 
         @include media-breakpoint-down(md) {
           bottom: -35px;

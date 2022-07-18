@@ -4517,7 +4517,6 @@ body,
 }
 .section-function .list-function .col:hover:after {
   border-top-color: #4a8c2b;
-  transition: 0.3s;
 }
 .section-function .list-function .col:after {
   position: absolute;
@@ -4532,6 +4531,7 @@ body,
   border-width: 43px 23.5px 0 23.5px;
   border-color: #3a6f33 transparent transparent transparent;
   content: "";
+  transition: 0.3s;
 }
 @media (max-width: 767.98px) {
   .section-function .list-function .col:after {
