@@ -4311,6 +4311,11 @@ body,
   height: 237px;
   background-size: cover;
 }
+@media (min-width: 1950px) {
+  .section-intro .component-4 {
+    bottom: -11vw;
+  }
+}
 .section-intro .lead {
   font-size: 24px !important;
   font-weight: bold;

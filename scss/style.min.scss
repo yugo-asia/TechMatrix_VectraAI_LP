@@ -305,6 +305,10 @@ body,
 
 
   .component-4 {
+    @media (min-width: 1950px) {
+      bottom: -11vw;
+    }
+
     position: absolute;
     right: 0;
     bottom: -243px;
