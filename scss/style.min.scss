@@ -691,9 +691,12 @@ body,
 //----------------------------------------------
 .footer {
   background-color: #000;
+  padding-top: 16px !important;
+  padding-bottom: 22px !important;
 
   @include media-breakpoint-down(md) {
-    padding: 5px 0 50px !important;
+    padding-top: 5px !important;
+    padding-bottom: 50px !important;
   }
 
   .row {
