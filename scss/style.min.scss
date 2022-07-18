@@ -876,10 +876,10 @@ body,
     border-bottom: 1px solid #fff;
     margin-top: 6px !important;
     padding: 18px 5px 16px 0;
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 500 !important;
     line-height: 1.75 !important;
-    letter-spacing: 0;
+    letter-spacing: 0 !important;
     color: #fff;
 
     @media (max-width: 768px) {
