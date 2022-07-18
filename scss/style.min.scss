@@ -657,6 +657,20 @@ body,
   img {
     width: auto !important;
   }
+
+  .point-note {
+    max-width: 649px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4a8c2b;
+    border-radius: 10px;
+
+    h3 {
+      font-size: 24px !important;
+      text-align: left !important;
+      color: #fff !important;
+    }
+  }
 }
 
 // ----------------------------------------------

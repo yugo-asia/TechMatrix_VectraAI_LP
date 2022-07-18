@@ -4607,6 +4607,18 @@ body,
 .section-common img {
   width: auto !important;
 }
+.section-common .point-note {
+  max-width: 649px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #4a8c2b;
+  border-radius: 10px;
+}
+.section-common .point-note h3 {
+  font-size: 24px !important;
+  text-align: left !important;
+  color: #fff !important;
+}
 
 .section-information {
   padding-top: 110px !important;
