@@ -402,9 +402,14 @@ body,
 .section-function {
   a {
     display: block;
+
+    img {
+      width: 100%;
+      max-width: 95px;
+    }
   }
 
-  img {
-    background-color: #f8cf01;
+  .point-number {
+    background-color: #3a6f33;
   }
 }

@@ -4364,7 +4364,11 @@ body,
 .section-function a {
   display: block;
 }
-.section-function img {
-  background-color: #f8cf01;
+.section-function a img {
+  width: 100%;
+  max-width: 95px;
+}
+.section-function .point-number {
+  background-color: #3a6f33;
 }
 /*# sourceMappingURL=style.min.css.map */
