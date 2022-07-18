@@ -415,6 +415,10 @@ body,
     }
   }
 
+  .inner {
+    padding-bottom: 0 !important;
+  }
+
   .component-3 {
     margin-top: 16px !important;
 
@@ -424,6 +428,7 @@ body,
         line-height: 1.52 !important;
       }
 
+      margin-bottom: 0 !important;
       font-size: 22px !important;
       color: #3a6f33;
     }
@@ -442,8 +447,8 @@ body,
 
   .component-1 {
     h3 {
-      font-size: 46px;
-      font-weight: 900;
+      font-size: 46px !important;
+      font-weight: 900 !important;
     }
   }
 }
