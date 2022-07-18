@@ -4441,10 +4441,21 @@ body,
 }
 .section-recommend .list-recommend .col .component.heading h3:before {
   position: absolute;
+  top: -6px;
+  left: 5px;
   font-size: 30px;
   font-weight: bold;
   color: #f15a24;
   content: "❶";
+}
+.section-recommend .list-recommend .col:nth-child(2) .component.heading h3:before {
+  content: "❷";
+}
+.section-recommend .list-recommend .col:nth-child(3) .component.heading h3:before {
+  content: "❸";
+}
+.section-recommend .list-recommend .col:nth-child(4) .component.heading h3:before {
+  content: "❹";
 }
 .section-recommend .list-recommend .component p {
   font-size: 16px !important;
