@@ -4800,7 +4800,7 @@ body,
 
 .section-inquiries {
   background-color: #333;
-  padding-top: 10px !important;
+  padding-top: 14px !important;
   padding-bottom: 51px !important;
 }
 @media (max-width: 768px) {
@@ -4811,8 +4811,9 @@ body,
 .section-inquiries .title h3 {
   font-size: 36px !important;
   margin-top: 39px;
-  margin-bottom: 42px !important;
+  margin-bottom: 38px !important;
   line-height: 1.45 !important;
+  letter-spacing: 0 !important;
   color: #fff;
 }
 @media (max-width: 768px) {
