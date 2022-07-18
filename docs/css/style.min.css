@@ -4090,6 +4090,9 @@ body {
 .theme-fo-base .wrapper .contents section {
   padding: 0;
 }
+.theme-fo-base .wrapper .contents section.bg-grey {
+  background-color: #f4f4f4;
+}
 .theme-fo-base .wrapper .contents section a img:hover {
   opacity: 1;
 }

@@ -48,6 +48,10 @@ body {
       section {
         padding: 0;
 
+        &.bg-grey {
+          background-color: #f4f4f4;
+        }
+
         a {
           img {
             &:hover {
