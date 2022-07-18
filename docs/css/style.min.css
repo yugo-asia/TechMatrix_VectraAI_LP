@@ -4303,13 +4303,17 @@ body,
 .section-intro .component-4 {
   position: absolute;
   right: 0;
-  bottom: -245px;
+  bottom: -66px;
   left: 0;
   z-index: 2;
   margin-right: auto !important;
   margin-left: auto !important;
-  height: 237px;
+  height: 0;
+  text-align: center;
   background-size: cover;
+}
+.section-intro .component-4 img {
+  width: 161px !important;
 }
 .section-intro .lead {
   font-size: 24px !important;
