@@ -372,6 +372,10 @@ body,
 }
 
 .section-recommend {
+  @include media-breakpoint-down(md) {
+    padding-bottom: 25px !important;
+  }
+  
   position: relative;
   padding-top: 24px !important;
   padding-bottom: 64px !important;

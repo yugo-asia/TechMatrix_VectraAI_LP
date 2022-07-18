@@ -4373,6 +4373,11 @@ body,
   z-index: 2;
   background-color: #fff;
 }
+@media (max-width: 767.98px) {
+  .section-recommend {
+    padding-bottom: 25px !important;
+  }
+}
 @media (min-width: 1950px) {
   .section-recommend {
     margin-top: 14vw;
