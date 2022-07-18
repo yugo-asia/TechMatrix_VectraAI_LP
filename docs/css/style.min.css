@@ -4383,6 +4383,12 @@ body,
   font-size: 46px !important;
   font-weight: 900 !important;
 }
+@media (max-width: 767.98px) {
+  .section-recommend .component-1.heading.title h3 {
+    margin-bottom: 25px !important;
+    font-size: 30px !important;
+  }
+}
 .section-recommend .list-recommend {
   margin-top: 25px;
   margin-right: auto;
@@ -4392,7 +4398,16 @@ body,
 .section-recommend .list-recommend .col {
   padding-right: 14px;
   padding-left: 14px;
-  border-left: 1px solid #707070;
+}
+@media (min-width: 768px) {
+  .section-recommend .list-recommend .col {
+    border-left: 1px solid #707070;
+  }
+}
+@media (max-width: 767.98px) {
+  .section-recommend .list-recommend .col {
+    margin-bottom: 20px;
+  }
 }
 .section-recommend .list-recommend .col .component.heading h3 {
   position: relative;
@@ -4400,6 +4415,12 @@ body,
   margin-top: 10px;
   margin-bottom: 18px;
   font-size: 20px !important;
+}
+@media (max-width: 767.98px) {
+  .section-recommend .list-recommend .col .component.heading h3 {
+    margin-bottom: 10px;
+    font-size: 16px !important;
+  }
 }
 .section-recommend .list-recommend .col .component.heading h3:before {
   position: absolute;
@@ -4419,8 +4440,10 @@ body,
 .section-recommend .list-recommend .col:nth-child(4) .component.heading h3:before {
   content: "❹";
 }
-.section-recommend .list-recommend .col:last-child {
-  border-right: 1px solid #707070;
+@media (min-width: 768px) {
+  .section-recommend .list-recommend .col:last-child {
+    border-right: 1px solid #707070;
+  }
 }
 .section-recommend .list-recommend .component p {
   font-size: 16px !important;
@@ -4432,6 +4455,12 @@ body,
   font-weight: bold !important;
   text-align: center;
   line-height: 1.667;
+}
+@media (max-width: 767.98px) {
+  .section-recommend .lead {
+    margin-bottom: 30px !important;
+    font-size: 18px !important;
+  }
 }
 
 .frame-root .d-block.d-sm-none {
