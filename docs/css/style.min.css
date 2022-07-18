@@ -4330,6 +4330,11 @@ body,
   padding-top: 78px !important;
   background-color: #eaeaea;
 }
+@media (max-width: 767.98px) {
+  .section-intro {
+    padding-top: 55px !important;
+  }
+}
 .section-intro:after {
   position: absolute;
   right: 0;
@@ -4369,6 +4374,11 @@ body,
     padding-right: 152px;
   }
 }
+@media (max-width: 767.98px) {
+  .section-intro .lead {
+    font-size: 20px !important;
+  }
+}
 @media (min-width: 768px) {
   .section-intro .component-2 {
     margin-top: -77px !important;
@@ -4382,6 +4392,7 @@ body,
   margin-top: 16px !important;
 }
 .section-intro .component-3 h3 {
+  font-size: 25px !important;
   color: #3a6f33;
 }
 @media (min-width: 768px) {
