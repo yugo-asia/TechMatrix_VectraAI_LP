@@ -4326,6 +4326,7 @@ body,
 }
 
 .section-intro {
+  position: relative;
   padding-top: 50px !important;
   background-color: #eaeaea;
 }
@@ -4333,6 +4334,27 @@ body,
   .section-intro {
     padding-top: 78px !important;
   }
+}
+.section-intro .component-4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 132px;
+  height: 270px;
+  background-size: cover;
+}
+.section-intro:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -244px;
+  height: 244px;
+  background: url("https://ferret-one.akamaized.net/images/62d4c841d1ccd11f2b486af6/original.svg?utime=1658112065") 50% 100% no-repeat;
+  background-size: cover;
+  content: "";
 }
 .section-intro .lead {
   font-size: 24px !important;
@@ -4354,11 +4376,17 @@ body,
   width: 100%;
   max-width: 1201px;
 }
+.section-intro .component-3 {
+  margin-top: 16px !important;
+}
 .section-intro .component-3 h3 {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1.52;
   color: #3a6f33;
+}
+@media (min-width: 768px) {
+  .section-intro .component-3 h3 {
+    font-size: 36px !important;
+    line-height: 1.52 !important;
+  }
 }
 
 .frame-root .d-block.d-sm-none {
