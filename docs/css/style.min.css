@@ -4073,8 +4073,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Noto Sans JP", sans-serif;
+body,
+.theme-fo-base {
+  font-family: "Noto Sans JP", sans-serif !important;
 }
 
 .component.image {
@@ -4322,6 +4323,38 @@ body {
   background: url("https://ferret-one.akamaized.net/images/62c3b3f8f9873c01b2926ccd/original.png") no-repeat;
   content: "";
   vertical-align: -2px;
+}
+
+.section-intro {
+  padding-top: 50px !important;
+  background-color: #eaeaea;
+}
+@media (min-width: 768px) {
+  .section-intro {
+    padding-top: 78px !important;
+  }
+}
+.section-intro .lead {
+  font-size: 24px !important;
+  font-weight: bold;
+  line-height: 1.667;
+  letter-spacing: -0.01em !important;
+}
+@media (min-width: 768px) {
+  .section-intro .lead {
+    padding-right: 152px;
+  }
+}
+@media (min-width: 768px) {
+  .section-intro .component-2 {
+    margin-top: -77px !important;
+  }
+}
+.section-intro .component-3 h3 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.52;
+  color: #3a6f33;
 }
 
 .frame-root .d-block.d-sm-none {

@@ -16,8 +16,9 @@ html {
 }
 
 //----------------------------------------------
-body {
-  font-family: 'Noto Sans JP', sans-serif;
+body,
+.theme-fo-base {
+  font-family: 'Noto Sans JP', sans-serif !important;
 }
 
 //----------------------------------------------
@@ -230,10 +231,10 @@ body {
           filter: brightness(1.07);
         }
       }
-    
+
       img {
         width: 135px !important;
-    
+
         @include media-breakpoint-down(md) {
           width: 88px !important;
         }
@@ -255,7 +256,7 @@ body {
 
       img {
         width: 208px !important;
-    
+
         @include media-breakpoint-down(md) {
           width: 116px !important;
         }
@@ -346,6 +347,47 @@ body {
     }
   }
 }
+
+//----------------------------------------------
+.section-intro {
+  @include media-breakpoint-up(md) {
+    padding-top: 78px !important;
+  }
+
+  padding-top: 50px !important;
+  background-color: #eaeaea;
+
+  .lead {
+    @include media-breakpoint-up(md) {
+      padding-right: 152px;
+    }
+
+    font-size: 24px !important;
+    font-weight: bold;
+    line-height: 1.667;
+    letter-spacing: -.01em !important;
+  }
+
+  .component-2 {
+    @include media-breakpoint-up(md) {
+      margin-top: -77px !important;
+    }
+
+    img {
+
+    }
+  }
+
+  .component-3 {
+    h3 {
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 1.52;
+      color: #3a6f33;
+    }
+  }
+}
+
 
 //----------------------------------------------
 // Admin page
