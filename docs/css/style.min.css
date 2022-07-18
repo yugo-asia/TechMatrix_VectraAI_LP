@@ -4302,14 +4302,13 @@ body,
 }
 .section-intro .component-4 {
   position: absolute;
-  right: 52px;
-  bottom: -355px;
+  right: 0;
+  bottom: -243px;
   left: 0;
   z-index: 2;
   margin-right: auto !important;
   margin-left: auto !important;
-  width: 162px;
-  height: 332px;
+  height: 237px;
   background-size: cover;
 }
 .section-intro .lead {
