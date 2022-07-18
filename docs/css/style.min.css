@@ -4857,4 +4857,12 @@ body,
   opacity: 1 !important;
   background-color: #db000c !important;
 }
+
+.section-difference .component-1.heading.title h3 {
+  font-size: 36px !important;
+}
+.section-difference .lead {
+  font-size: 18px;
+  line-height: 1.944;
+}
 /*# sourceMappingURL=style.min.css.map */

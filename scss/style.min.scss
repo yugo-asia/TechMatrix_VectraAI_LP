@@ -375,7 +375,7 @@ body,
   @include media-breakpoint-down(md) {
     padding-bottom: 25px !important;
   }
-  
+
   position: relative;
   padding-top: 24px !important;
   padding-bottom: 64px !important;
@@ -940,5 +940,17 @@ body,
       }
     }
 
+  }
+}
+
+//----------------------------------------------
+.section-difference {
+  .component-1.heading.title h3 {
+    font-size: 36px !important;
+  }
+
+  .lead {
+    font-size: 18px;
+    line-height: 1.944;
   }
 }
