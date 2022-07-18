@@ -454,16 +454,20 @@ body,
   }
 
   .list-recommend {
-    .component {
-      font-size: 16px !important;
-      line-height: 1.75px;
-    }
+    margin-top: 25px;
 
     .row {
       .col {
         h3 {
           font-size: 20px !important;
         }
+      }
+    }
+
+    .component {
+      p {
+        font-size: 16px !important;
+        line-height: 1.75;
       }
     }
   }

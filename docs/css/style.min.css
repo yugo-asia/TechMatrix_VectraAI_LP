@@ -4420,12 +4420,15 @@ body,
   font-size: 46px !important;
   font-weight: 900 !important;
 }
-.section-recommend .list-recommend .component {
-  font-size: 16px !important;
-  line-height: 1.75px;
+.section-recommend .list-recommend {
+  margin-top: 25px;
 }
 .section-recommend .list-recommend .row .col h3 {
   font-size: 20px !important;
+}
+.section-recommend .list-recommend .component p {
+  font-size: 16px !important;
+  line-height: 1.75;
 }
 .section-recommend .lead {
   margin-bottom: 40px !important;
