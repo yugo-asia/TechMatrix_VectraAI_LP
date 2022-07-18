@@ -798,3 +798,72 @@ body,
     }
   }
 }
+
+//----------------------------------------------
+.section-inquiries {
+  background-color: #333;
+
+  @media (max-width: 768px) {
+    padding: 0 0 20px !important;
+  }
+
+  .title {
+    h3 {
+      @media (max-width: 768px) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .lead {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 6px !important;
+    padding: 18px 5px 16px 0;
+
+    p {
+      font-weight: 500 !important;
+      line-height: 1.75 !important;
+      letter-spacing: 0;
+
+      @media (max-width: 768px) {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .btn-inquiries {
+    margin: 77px 0 0 !important;
+
+    @media (max-width: 768px) {
+      margin-top: 30px !important;
+    }
+
+    .button-cont {
+      a {
+        background-color: #c61019 !important;
+        background-image: url("https://ferret-one.akamaized.net/images/62c4ea7bd6103842f0e2dd4e/original.png?utime=1657072251"), url("https://ferret-one.akamaized.net/images/62c4f137f9873c3d9792eaf5/original.png") !important;
+        background-position: left 30px center, right 26px center !important;
+        background-repeat: no-repeat, no-repeat !important;
+        padding: 29px 0 34px !important;
+        border-radius: 10px !important;
+        width: 654px;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          font-size: 16px !important;
+          padding: 14px 0 !important;
+          background-size: 25px auto, 12px auto !important;
+          background-position: left 5px center, right 10px center !important;
+          border-radius: 5px !important;
+        }
+
+        &:hover {
+          opacity: 1 !important;
+          background-color: #db000c !important;
+        }
+      }
+    }
+
+  }
+}
