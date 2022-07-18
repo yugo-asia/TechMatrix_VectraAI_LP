@@ -4411,8 +4411,7 @@ body,
   display: flex;
   justify-content: center;
 }
-.section-function .list-function .col {
-  width: calc(33.3333333333% - 20px) !important;
+.section-function .list-function .component {
   background-color: #3a6f33;
 }
 /*# sourceMappingURL=style.min.css.map */
