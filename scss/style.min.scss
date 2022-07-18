@@ -355,6 +355,11 @@ body,
   background-color: #eaeaea;
 
   &:after {
+    @include media-breakpoint-up(xxl) {
+      bottom: -14vw;
+      height: 14;
+    }
+
     position: absolute;
     right: 0;
     bottom: -244px;
@@ -416,6 +421,10 @@ body,
 }
 
 .section-recommend {
+  @include media-breakpoint-up(xxl) {
+    margin-top: 14vw;
+  }
+
   position: relative;
   margin-top: 244px;
   z-index: 2;

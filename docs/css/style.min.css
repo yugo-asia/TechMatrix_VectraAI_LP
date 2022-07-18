@@ -4340,6 +4340,12 @@ body,
   background-size: cover;
   content: "";
 }
+@media (min-width: 1400px) {
+  .section-intro:after {
+    bottom: -14vw;
+    height: 14;
+  }
+}
 .section-intro .component-4 {
   position: absolute;
   right: 52px;
@@ -4390,6 +4396,11 @@ body,
   margin-top: 244px;
   z-index: 2;
   background-color: #fff;
+}
+@media (min-width: 1400px) {
+  .section-recommend {
+    margin-top: 14vw;
+  }
 }
 
 .frame-root .d-block.d-sm-none {
