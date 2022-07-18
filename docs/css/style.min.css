@@ -4332,7 +4332,7 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-intro {
-    padding-top: 55px !important;
+    padding-top: 25px !important;
   }
 }
 .section-intro:after {
@@ -4376,7 +4376,8 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-intro .lead {
-    font-size: 20px !important;
+    margin-bottom: 20px !important;
+    font-size: 18px !important;
   }
 }
 @media (min-width: 768px) {
@@ -4392,7 +4393,7 @@ body,
   margin-top: 16px !important;
 }
 .section-intro .component-3 h3 {
-  font-size: 25px !important;
+  font-size: 22px !important;
   color: #3a6f33;
 }
 @media (min-width: 768px) {

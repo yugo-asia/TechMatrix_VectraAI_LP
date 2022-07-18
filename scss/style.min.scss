@@ -351,7 +351,7 @@ body,
 //----------------------------------------------
 .section-intro {
   @include media-breakpoint-down(md) {
-    padding-top: 55px !important;
+    padding-top: 25px !important;
   }
 
   position: relative;
@@ -394,7 +394,8 @@ body,
     }
 
     @include media-breakpoint-down(md) {
-      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      font-size: 18px !important;
     }
 
     font-size: 24px !important;
@@ -423,7 +424,7 @@ body,
         line-height: 1.52 !important;
       }
 
-      font-size: 25px !important;
+      font-size: 22px !important;
       color: #3a6f33;
     }
   }
