@@ -4327,4 +4327,11 @@ body {
 .frame-root .d-block.d-sm-none {
   display: block !important;
 }
+
+.section-function a {
+  display: block;
+}
+.section-function img {
+  background-color: #f8cf01;
+}
 /*# sourceMappingURL=style.min.css.map */
