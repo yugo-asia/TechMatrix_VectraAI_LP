@@ -4387,6 +4387,9 @@ body,
 
 .section-recommend {
   position: relative;
+  margin-top: 244px;
+  z-index: 2;
+  background-color: #fff;
 }
 
 .frame-root .d-block.d-sm-none {
