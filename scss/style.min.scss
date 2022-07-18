@@ -599,7 +599,7 @@ body,
   padding-top: 110px !important;
   padding-bottom: 58px !important;
   color: #fff;
-  background: url("https://ferret-one.akamaized.net/images/62d4f8313b410606354d96a4/original.jpeg?utime=1658124337") 50% 50%/cover no-repeat;
+  background: url("https://ferret-one.akamaized.net/images/62d506290b4e375b6f85a052/original.jpeg?utime=1658127913") 50% 50%/cover no-repeat;
 
   h3 {
     padding-bottom: 28px;
@@ -649,12 +649,28 @@ body,
     margin-top: 37px;
 
     a {
-      padding: 22px 72px 22px 38px;
+      position: relative;
+      padding: 22px 72px 22px 38px !important;
       font-size: 24px !important;
       font-weight: bold;
       text-align: center;
       background-color: #c61019 !important;
-      border-radius: 40px;
+      border-radius: 40px !important;
+
+      &:after {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        bottom: 0;
+        width: 15px;
+        height: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-top: 1px solid #fff;
+        border-right: 1px solid #fff;
+        transform: rotate(45deg);
+        content: "";
+      }
     }
   }
 }
