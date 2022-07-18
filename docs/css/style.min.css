@@ -4345,7 +4345,7 @@ body,
   background-size: cover;
   content: "";
 }
-@media (min-width: 1400px) {
+@media (min-width: 1950px) {
   .section-intro:after {
     bottom: -14vw;
     height: 14vw;
@@ -4409,10 +4409,14 @@ body,
   z-index: 2;
   background-color: #fff;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1950px) {
   .section-recommend {
     margin-top: 14vw;
   }
+}
+.section-recommend .component-1 h3 {
+  font-size: 46px;
+  font-weight: 900;
 }
 
 .frame-root .d-block.d-sm-none {
