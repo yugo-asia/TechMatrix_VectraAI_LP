@@ -4418,7 +4418,7 @@ body,
     margin-top: 14vw;
   }
 }
-.section-recommend .component-1 h3 {
+.section-recommend .component-1.heading.title h3 {
   font-size: 46px !important;
   font-weight: 900 !important;
 }

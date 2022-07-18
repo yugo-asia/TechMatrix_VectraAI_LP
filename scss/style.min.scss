@@ -446,9 +446,13 @@ body,
   }
 
   .component-1 {
-    h3 {
-      font-size: 46px !important;
-      font-weight: 900 !important;
+    &.heading {
+      &.title {
+        h3 {
+          font-size: 46px !important;
+          font-weight: 900 !important;
+        }
+      }
     }
   }
 }
