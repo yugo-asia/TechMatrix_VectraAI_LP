@@ -403,7 +403,7 @@ body,
 
         &:before {
           position: absolute;
-          top: -6px;
+          top: -7px;
           left: 5px;
           font-size: 30px;
           font-weight: bold;
@@ -434,6 +434,10 @@ body,
             content: "❹";
           }
         }
+      }
+
+      &:last-child {
+        border-right: 1px solid #707070;
       }
     }
 

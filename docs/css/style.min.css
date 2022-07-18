@@ -4390,7 +4390,7 @@ body,
 }
 .section-recommend .list-recommend .col .component.heading h3:before {
   position: absolute;
-  top: -6px;
+  top: -7px;
   left: 5px;
   font-size: 30px;
   font-weight: bold;
@@ -4405,6 +4405,9 @@ body,
 }
 .section-recommend .list-recommend .col:nth-child(4) .component.heading h3:before {
   content: "❹";
+}
+.section-recommend .list-recommend .col:last-child {
+  border-right: 1px solid #707070;
 }
 .section-recommend .list-recommend .component p {
   font-size: 16px !important;
