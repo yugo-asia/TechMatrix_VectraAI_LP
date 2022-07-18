@@ -605,12 +605,13 @@ body,
 
 //----------------------------------------------
 .section-information {
-  padding-top: 110px;
+  padding-top: 110px !important;
   color: #fff;
   background-color: #4a8c2b;
 
   h3 {
     padding-bottom: 28px;
+    margin-bottom: 30px !important;
     font-size: 36px !important;
     font-weight: bold !important;
     border-bottom: 1px solid #f8cf01;
@@ -621,6 +622,14 @@ body,
       font-size: 24px !important;
       font-weight: bold;
       line-height: 1.167;
+    }
+  }
+
+  .component-3 {
+    &.text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.778;
     }
   }
 }
