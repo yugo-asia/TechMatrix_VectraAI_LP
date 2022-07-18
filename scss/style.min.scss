@@ -311,13 +311,18 @@ body,
 
     position: absolute;
     right: 0;
-    bottom: -243px;
+    bottom: -245px;
     left: 0;
     z-index: 2;
     margin-right: auto !important;
     margin-left: auto !important;
     height: 237px;
     background-size: cover;
+
+    img {
+      width: auto !important;
+      max-width: none !important;
+    }
   }
 
   .lead {

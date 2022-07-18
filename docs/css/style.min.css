@@ -4303,7 +4303,7 @@ body,
 .section-intro .component-4 {
   position: absolute;
   right: 0;
-  bottom: -243px;
+  bottom: -245px;
   left: 0;
   z-index: 2;
   margin-right: auto !important;
@@ -4315,6 +4315,10 @@ body,
   .section-intro .component-4 {
     bottom: -11vw;
   }
+}
+.section-intro .component-4 img {
+  width: auto !important;
+  max-width: none !important;
 }
 .section-intro .lead {
   font-size: 24px !important;
