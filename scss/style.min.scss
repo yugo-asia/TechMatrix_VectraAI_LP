@@ -220,15 +220,19 @@ body {
   }
 
   .logo {
-    &:hover {
-      filter: brightness(1.07);
-    }
-
-    img {
-      width: 135px !important;
-
-      @include media-breakpoint-down(md) {
-        width: 88px !important;
+    a {
+      &:hover {
+        img {
+          filter: brightness(1.07);
+        }
+      }
+    
+      img {
+        width: 135px !important;
+    
+        @include media-breakpoint-down(md) {
+          width: 88px !important;
+        }
       }
     }
   }
@@ -240,11 +244,17 @@ body {
       margin-top: 4px !important;
     }
 
-    img {
-      width: 208px !important;
+    a {
+      &:hover {
+        opacity: .6;
+      }
 
-      @include media-breakpoint-down(md) {
-        width: 116px !important;
+      img {
+        width: 208px !important;
+    
+        @include media-breakpoint-down(md) {
+          width: 116px !important;
+        }
       }
     }
   }

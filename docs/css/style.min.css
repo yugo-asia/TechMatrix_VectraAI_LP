@@ -4227,14 +4227,14 @@ body {
     display: flex !important;
   }
 }
-.section-fv .logo:hover {
+.section-fv .logo a:hover img {
   filter: brightness(1.07);
 }
-.section-fv .logo img {
+.section-fv .logo a img {
   width: 135px !important;
 }
 @media (max-width: 767.98px) {
-  .section-fv .logo img {
+  .section-fv .logo a img {
     width: 88px !important;
   }
 }
@@ -4246,11 +4246,14 @@ body {
     margin-top: 4px !important;
   }
 }
-.section-fv .logo-vectra img {
+.section-fv .logo-vectra a:hover {
+  opacity: 0.6;
+}
+.section-fv .logo-vectra a img {
   width: 208px !important;
 }
 @media (max-width: 767.98px) {
-  .section-fv .logo-vectra img {
+  .section-fv .logo-vectra a img {
     width: 116px !important;
   }
 }
