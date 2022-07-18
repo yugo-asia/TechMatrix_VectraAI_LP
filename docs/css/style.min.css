@@ -4858,11 +4858,11 @@ body,
   background-color: #db000c !important;
 }
 
-.section-difference .component-1.heading.title h3 {
+.section-difference .component-1.heading h3 {
   font-size: 36px !important;
 }
 .section-difference .lead {
-  font-size: 18px;
-  line-height: 1.944;
+  font-size: 18px !important;
+  line-height: 1.944 !important;
 }
 /*# sourceMappingURL=style.min.css.map */
