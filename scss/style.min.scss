@@ -664,6 +664,7 @@ body,
 // ----------------------------------------------
 .section-information {
   padding-top: 110px !important;
+  padding-bottom: 58px !important;
   color: #fff;
   background: url("https://ferret-one.akamaized.net/images/62d4f8313b410606354d96a4/original.jpeg?utime=1658124337") 50% 50%/cover no-repeat;
 
@@ -705,7 +706,22 @@ body,
 
   .component-5 {
     &.note {
-      font-size: 12px;
+      padding-top: 11px;
+      padding-right: 50px;
+      font-size: 12px !important;
+    }
+  }
+
+  .button-cont {
+    margin-top: 37px;
+
+    a {
+      padding: 22px 72px 22px 38px;
+      font-size: 24px !important;
+      font-weight: bold;
+      text-align: center;
+      background-color: #c61019 !important;
+      border-radius: 40px;
     }
   }
 }
