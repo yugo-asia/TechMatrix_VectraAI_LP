@@ -57,39 +57,13 @@
                 ".group-button",
                 ".hoge",
                 ".sector",
-                ".main",
-                ".menu",
                 ".brand",
-                ".content",
-                ".contents",
-                ".txt",
-                ".button",
                 ".text-align",
                 ".container-btn",
                 ".container-label",
                 ".list",
                 ".space"
             ]
-        },
-        "stylelint-plugins/file-name-match": {
-            "selectorAndFileNameMap": {
-                "body": "_scaffolding.scss",
-                ".nav": "_navs.scss",
-                ".navbar": "_navs.scss",
-                ".btn": "_buttons.scss",
-                ".pagination": "_pagination.scss",
-                ".list-group": "_list-group.scss",
-                ".media": "_media.scss",
-                ".panel": "_panels.scss",
-                ".table": "_tables.scss",
-                ".breadcrumb": "_breadcrumbs.scss",
-                ".title": "_title.scss",
-                ".hr": "_scaffolding.scss",
-                ".text": "_type.scss",
-                ".section": "_section.scss",
-                ".label": "_labels.scss",
-                ".thumbnail": "_thumbnails.scss"
-            }
         },
         "stylelint-plugins/media-query-variables": true
     }

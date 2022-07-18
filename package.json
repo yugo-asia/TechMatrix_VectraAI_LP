@@ -9,13 +9,6 @@
         "eslint:fix": "eslint -c .eslintrc.yml --color './src/**/*.{js,jsx}' --fix"
     },
     "lint-staged": {
-        "_public/**/*.@(html|php)": [
-            "htmllint --rc config/.htmllintrc-indent",
-            "htmllint --rc config/.htmllintrc"
-        ],
-        "@(scss|css)/**/*.@(scss|css)": [
-            "scss-css-pair-lint"
-        ],
         "scss/**/*.scss": [
             "sass-lint -v -q -c config/.sass-lint.yml",
             "stylelint --config config/.stylelintrc"
