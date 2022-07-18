@@ -690,12 +690,14 @@ body,
         li {
           margin: 0 12px 0 0;
           padding: 0;
+          display: inline-block;
 
           a {
             font-size: 14px;
             font-weight: 500;
             letter-spacing: 0;
             color: #a7a7a7;
+            padding: 0;
 
             &:hover {
               color: #fff;

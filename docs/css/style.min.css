@@ -4613,12 +4613,14 @@ body,
 .footer .row .col .list-footer-link li {
   margin: 0 12px 0 0;
   padding: 0;
+  display: inline-block;
 }
 .footer .row .col .list-footer-link li a {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0;
   color: #a7a7a7;
+  padding: 0;
 }
 .footer .row .col .list-footer-link li a:hover {
   color: #fff;
