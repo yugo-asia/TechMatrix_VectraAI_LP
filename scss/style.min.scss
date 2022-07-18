@@ -822,10 +822,10 @@ body,
 
   .title {
     h3 {
-      font-size: 36px;
+      font-size: 36px !important;
       margin-top: 39px;
-      margin-bottom: 23px;
-      line-height: 1.45;
+      margin-bottom: 23px !important;
+      line-height: 1.45 !important;
       color: #fff;
 
       @media (max-width: 768px) {
