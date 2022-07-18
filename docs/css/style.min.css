@@ -4595,6 +4595,18 @@ body,
   text-align: center;
   color: #333;
 }
+.section-common .inner {
+  padding-top: 0 !important;
+}
+.section-common .component-1 h3 {
+  display: none;
+}
+.section-common .point-number {
+  text-align: center;
+}
+.section-common .point-number img {
+  width: auto !important;
+}
 
 .section-information {
   padding-top: 110px !important;

@@ -639,6 +639,24 @@ body,
     text-align: center;
     color: #333;
   }
+
+  .inner {
+    padding-top: 0 !important;
+  }
+
+  .component-1 {
+    h3 {
+      display: none;
+    }
+  }
+
+  .point-number {
+    text-align: center;
+
+    img {
+      width: auto !important;
+    }
+  }
 }
 
 // ----------------------------------------------
