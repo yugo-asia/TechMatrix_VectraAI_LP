@@ -4555,6 +4555,12 @@ body,
   color: #fff;
   background: url("https://ferret-one.akamaized.net/images/62d506290b4e375b6f85a052/original.jpeg?utime=1658127913") 50% 50%/cover no-repeat;
 }
+@media (max-width: 767.98px) {
+  .section-information {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+}
 .section-information h3 {
   padding-bottom: 28px;
   margin-bottom: 30px !important;
@@ -4562,17 +4568,36 @@ body,
   font-weight: bold !important;
   border-bottom: 1px solid #f8cf01;
 }
+@media (max-width: 767.98px) {
+  .section-information h3 {
+    padding-bottom: 20px;
+    margin-bottom: 20px !important;
+    font-size: 28px !important;
+  }
+}
 .section-information .component-2.lead {
   margin-bottom: 25px !important;
   font-size: 24px !important;
   font-weight: bold;
   line-height: 1.167;
 }
+@media (max-width: 767.98px) {
+  .section-information .component-2.lead {
+    margin-bottom: 20px !important;
+    font-size: 18px !important;
+  }
+}
 .section-information .component-3.text {
   margin-bottom: 36px !important;
   font-size: 18px !important;
   font-weight: 500;
   line-height: 1.778;
+}
+@media (max-width: 767.98px) {
+  .section-information .component-3.text {
+    margin-bottom: 30px !important;
+    font-size: 16px !important;
+  }
 }
 .section-information .component-4.image {
   text-align: center;
@@ -4582,11 +4607,20 @@ body,
 }
 .section-information .component-5.note {
   padding-top: 11px;
-  padding-right: 50px;
   font-size: 12px !important;
+}
+@media (min-width: 1200px) {
+  .section-information .component-5.note {
+    padding-right: 50px;
+  }
 }
 .section-information .button-cont {
   margin-top: 37px;
+}
+@media (max-width: 767.98px) {
+  .section-information .button-cont {
+    margin-top: 30px;
+  }
 }
 .section-information .button-cont a {
   position: relative;
@@ -4596,6 +4630,11 @@ body,
   text-align: center;
   background-color: #c61019 !important;
   border-radius: 40px !important;
+}
+@media (max-width: 767.98px) {
+  .section-information .button-cont a {
+    font-size: 20px !important;
+  }
 }
 .section-information .button-cont a:hover {
   opacity: 1;

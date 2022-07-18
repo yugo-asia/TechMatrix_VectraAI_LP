@@ -609,12 +609,23 @@ body,
   color: #fff;
   background: url("https://ferret-one.akamaized.net/images/62d506290b4e375b6f85a052/original.jpeg?utime=1658127913") 50% 50%/cover no-repeat;
 
+  @include media-breakpoint-down(md) {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+
   h3 {
     padding-bottom: 28px;
     margin-bottom: 30px !important;
     font-size: 36px !important;
     font-weight: bold !important;
     border-bottom: 1px solid #f8cf01;
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 20px;
+      margin-bottom: 20px !important;
+      font-size: 28px !important;
+    }
   }
 
   .component-2 {
@@ -623,6 +634,11 @@ body,
       font-size: 24px !important;
       font-weight: bold;
       line-height: 1.167;
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 20px !important;
+        font-size: 18px !important;
+      }
     }
   }
 
@@ -632,6 +648,11 @@ body,
       font-size: 18px !important;
       font-weight: 500;
       line-height: 1.778;
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 30px !important;
+        font-size: 16px !important;
+      }
     }
   }
 
@@ -648,13 +669,20 @@ body,
   .component-5 {
     &.note {
       padding-top: 11px;
-      padding-right: 50px;
       font-size: 12px !important;
+
+      @include media-breakpoint-up(xl) {
+        padding-right: 50px;
+      }
     }
   }
 
   .button-cont {
     margin-top: 37px;
+
+    @include media-breakpoint-down(md) {
+      margin-top: 30px;
+    }
 
     a {
       position: relative;
@@ -664,6 +692,10 @@ body,
       text-align: center;
       background-color: #c61019 !important;
       border-radius: 40px !important;
+
+      @include media-breakpoint-down(md) {
+        font-size: 20px !important;
+      }
 
       &:hover {
         opacity: 1;
