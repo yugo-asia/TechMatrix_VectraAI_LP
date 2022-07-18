@@ -4385,10 +4385,6 @@ body,
     margin-top: -77px !important;
   }
 }
-.section-intro .component-2 img {
-  width: 100%;
-  max-width: 1201px;
-}
 .section-intro .inner {
   padding-bottom: 0 !important;
 }
@@ -4409,7 +4405,7 @@ body,
 
 .section-recommend {
   position: relative;
-  padding-top: 24px;
+  padding-top: 24px !important;
   margin-top: 244px;
   z-index: 2;
   background-color: #fff;
@@ -4423,6 +4419,13 @@ body,
   margin-bottom: 35px !important;
   font-size: 46px !important;
   font-weight: 900 !important;
+}
+.section-recommend .list-recommend .component {
+  font-size: 16px !important;
+  line-height: 1.75px;
+}
+.section-recommend .list-recommend .row .col h3 {
+  font-size: 20px !important;
 }
 .section-recommend .lead {
   margin-bottom: 40px !important;

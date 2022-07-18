@@ -408,11 +408,6 @@ body,
     @include media-breakpoint-up(md) {
       margin-top: -77px !important;
     }
-
-    img {
-      width: 100%;
-      max-width: 1201px;
-    }
   }
 
   .inner {
@@ -437,7 +432,7 @@ body,
 
 .section-recommend {
   position: relative;
-  padding-top: 24px;
+  padding-top: 24px !important;
   margin-top: 244px;
   z-index: 2;
   background-color: #fff;
@@ -453,6 +448,21 @@ body,
           margin-bottom: 35px !important;
           font-size: 46px !important;
           font-weight: 900 !important;
+        }
+      }
+    }
+  }
+
+  .list-recommend {
+    .component {
+      font-size: 16px !important;
+      line-height: 1.75px;
+    }
+
+    .row {
+      .col {
+        h3 {
+          font-size: 20px !important;
         }
       }
     }
