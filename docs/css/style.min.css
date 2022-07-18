@@ -4367,12 +4367,24 @@ body,
 
 .section-function a {
   display: block;
+  text-align: center;
+  text-decoration: none;
 }
 .section-function a img {
-  width: 100%;
-  max-width: 95px;
+  width: auto !important;
 }
-.section-function .point-number {
+.section-function .richtext p a {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.458;
+  color: #fff;
+}
+.section-function .list-function {
+  display: flex;
+  justify-content: center;
+}
+.section-function .list-function .col {
+  width: calc(33.3333333333% - 20px) !important;
   background-color: #3a6f33;
 }
 /*# sourceMappingURL=style.min.css.map */

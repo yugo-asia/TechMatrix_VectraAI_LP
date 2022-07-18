@@ -403,14 +403,33 @@ body,
 .section-function {
   a {
     display: block;
+    text-align: center;
+    text-decoration: none;
 
     img {
-      width: 100%;
-      max-width: 95px;
+      width: auto !important;
     }
   }
 
-  .point-number {
-    background-color: #3a6f33;
+  .richtext {
+    p {
+      a {
+        
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.458;
+        color: #fff;
+      }
+    }
+  }
+
+  .list-function {
+    display: flex;
+    justify-content: center;
+
+    .col {
+      width: calc(33.3333333333% - 20px) !important;
+      background-color: #3a6f33;
+    }
   }
 }
