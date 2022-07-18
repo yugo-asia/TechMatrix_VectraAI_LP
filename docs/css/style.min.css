@@ -4327,30 +4327,27 @@ body,
 
 .section-intro {
   position: relative;
-  padding-top: 50px !important;
+  padding-top: 78px !important;
+  padding-bottom: 244px !important;
   background-color: #eaeaea;
-}
-@media (min-width: 768px) {
-  .section-intro {
-    padding-top: 78px !important;
-  }
 }
 .section-intro .component-4 {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 52px;
+  bottom: -300px;
   left: 0;
+  z-index: 1;
   margin-right: auto !important;
   margin-left: auto !important;
-  width: 132px;
-  height: 270px;
+  width: 162px;
+  height: 332px;
   background-size: cover;
 }
 .section-intro:after {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: -244px;
+  bottom: 0;
   height: 244px;
   background: url("https://ferret-one.akamaized.net/images/62d4c841d1ccd11f2b486af6/original.svg?utime=1658112065") 50% 100% no-repeat;
   background-size: cover;

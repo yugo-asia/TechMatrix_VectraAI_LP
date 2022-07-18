@@ -350,23 +350,22 @@ body,
 
 //----------------------------------------------
 .section-intro {
-  @include media-breakpoint-up(md) {
-    padding-top: 78px !important;
-  }
-
   position: relative;
-  padding-top: 50px !important;
+  padding-top: 78px !important;
+  padding-bottom: 244px !important;
   background-color: #eaeaea;
+
 
   .component-4 {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 52px;
+    bottom: -300px;
     left: 0;
+    z-index: 1;
     margin-right: auto !important;
     margin-left: auto !important;
-    width: 132px;
-    height: 270px;
+    width: 162px;
+    height: 332px;
     background-size: cover;
   }
 
@@ -374,7 +373,7 @@ body,
     position: absolute;
     right: 0;
     left: 0;
-    bottom: -244px;
+    bottom: 0;
     height: 244px;
     background: url("https://ferret-one.akamaized.net/images/62d4c841d1ccd11f2b486af6/original.svg?utime=1658112065") 50% 100% no-repeat;
     background-size: cover;
@@ -444,7 +443,7 @@ body,
   .richtext {
     p {
       a {
-        
+
         font-weight: bold;
         font-size: 24px;
         line-height: 1.458;
