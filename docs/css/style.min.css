@@ -4612,6 +4612,9 @@ body,
   font-size: 12px;
 }
 
+.footer {
+  background-color: #000;
+}
 @media (max-width: 767.98px) {
   .footer {
     padding: 5px 0 50px !important;
@@ -4624,11 +4627,11 @@ body,
   opacity: 1 !important;
   filter: brightness(1.07);
 }
-.footer .row .col .logo-footer a:after {
-  display: none;
+.footer .row .col .logo-footer a:hover img {
+  opacity: 1 !important;
 }
 .footer .row .col .logo-footer a img {
-  opacity: 1 !important;
+  width: 154px !important;
 }
 .footer .row .col .list-footer-link {
   margin: 30px 0 0 !important;

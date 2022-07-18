@@ -685,6 +685,8 @@ body,
 
 //----------------------------------------------
 .footer {
+  background-color: #000;
+
   @include media-breakpoint-down(md) {
     padding: 5px 0 50px !important;
   }
@@ -698,14 +700,14 @@ body,
           &:hover {
             opacity: 1 !important;
             filter: brightness(1.07);
-          }
 
-          &:after {
-            display: none;
+            img {
+              opacity: 1 !important;
+            }
           }
 
           img {
-            opacity: 1 !important;
+            width: 154px !important;
           }
         }
       }
