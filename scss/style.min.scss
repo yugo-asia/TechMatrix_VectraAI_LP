@@ -408,15 +408,14 @@ body,
 
     .col {
       @include media-breakpoint-up(md) {
+        padding-right: 14px;
+        padding-left: 14px;
         border-left: 1px solid #707070;
       }
 
       @include media-breakpoint-down(md) {
         margin-bottom: 20px;
       }
-
-      padding-right: 14px;
-      padding-left: 14px;
 
       .component.heading h3 {
         @include media-breakpoint-down(md) {
@@ -431,6 +430,10 @@ body,
         font-size: 20px !important;
 
         &:before {
+          @include media-breakpoint-down(md) {
+            top: -10px;
+          }
+
           position: absolute;
           top: -7px;
           left: 5px;
@@ -474,6 +477,10 @@ body,
 
     .component {
       p {
+        @include media-breakpoint-down(md) {
+          font-size: 14px !important;
+        }
+
         font-size: 16px !important;
         line-height: 1.75 !important;
       }
