@@ -656,17 +656,22 @@ body,
       background-color: #c61019 !important;
       border-radius: 40px !important;
 
+      &:hover {
+        opacity: 1;
+        background-color: #db000c !important;
+      }
+
       &:after {
         position: absolute;
         top: 0;
-        right: 20px;
+        right: 31px;
         bottom: 0;
-        width: 15px;
-        height: 15px;
+        width: 24px;
+        height: 24px;
         margin-top: auto;
         margin-bottom: auto;
-        border-top: 1px solid #fff;
-        border-right: 1px solid #fff;
+        border-top: 2px solid #fff;
+        border-right: 2px solid #fff;
         transform: rotate(45deg);
         content: "";
       }
