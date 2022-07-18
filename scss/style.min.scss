@@ -665,6 +665,22 @@ body,
       line-height: 1.778;
     }
   }
+
+  .component-4 {
+    &.image {
+      text-align: center;
+
+      img {
+        max-width: 1100px !important;
+      }
+    }
+  }
+
+  .component-5 {
+    &.note {
+      font-size: 12px;
+    }
+  }
 }
 
 //----------------------------------------------

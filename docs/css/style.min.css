@@ -4602,6 +4602,15 @@ body,
   font-weight: 500;
   line-height: 1.778;
 }
+.section-information .component-4.image {
+  text-align: center;
+}
+.section-information .component-4.image img {
+  max-width: 1100px !important;
+}
+.section-information .component-5.note {
+  font-size: 12px;
+}
 
 @media (max-width: 767.98px) {
   .footer {
