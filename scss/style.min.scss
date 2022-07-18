@@ -432,7 +432,7 @@ body,
   a {
     display: block;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none !important;
 
     img {
       width: auto !important;
@@ -455,12 +455,9 @@ body,
     display: flex;
     justify-content: center;
 
-    // .col {
-    //   width: calc(33.3333333333% - 20px) !important;
-    //   background-color: #3a6f33;
-    // }
-
-    .component {
+    .col {
+      margin-right: 15px;
+      margin-left: 15px;
       background-color: #3a6f33;
     }
   }

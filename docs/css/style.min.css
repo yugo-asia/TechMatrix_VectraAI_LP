@@ -4396,7 +4396,7 @@ body,
 .section-function a {
   display: block;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .section-function a img {
   width: auto !important;
@@ -4411,7 +4411,9 @@ body,
   display: flex;
   justify-content: center;
 }
-.section-function .list-function .component {
+.section-function .list-function .col {
+  margin-right: 15px;
+  margin-left: 15px;
   background-color: #3a6f33;
 }
 /*# sourceMappingURL=style.min.css.map */
