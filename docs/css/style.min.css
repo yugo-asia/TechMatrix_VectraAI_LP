@@ -4628,6 +4628,7 @@ body,
 .footer .row .col .list-footer-link li a:hover {
   color: #fff;
   opacity: 1 !important;
+  background: transparent !important;
 }
 .footer .row .col .copyright {
   font-size: 12px !important;
