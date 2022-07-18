@@ -4776,6 +4776,8 @@ body,
 
 .section-inquiries {
   background-color: #333;
+  padding-top: 10px !important;
+  padding-bottom: 41px !important;
 }
 @media (max-width: 768px) {
   .section-inquiries {
