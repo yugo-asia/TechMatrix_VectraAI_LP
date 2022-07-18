@@ -4557,7 +4557,7 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-information {
-    padding-top: 60px !important;
+    padding-top: 50px !important;
     padding-bottom: 40px !important;
   }
 }
@@ -4570,20 +4570,23 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-information h3 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-bottom: 20px !important;
     font-size: 28px !important;
   }
 }
 .section-information .component-2.lead {
-  margin-bottom: 25px !important;
   font-size: 24px !important;
   font-weight: bold;
   line-height: 1.167;
 }
+@media (min-width: 768px) {
+  .section-information .component-2.lead {
+    margin-bottom: 25px !important;
+  }
+}
 @media (max-width: 767.98px) {
   .section-information .component-2.lead {
-    margin-bottom: 20px !important;
     font-size: 18px !important;
   }
 }
@@ -4595,7 +4598,7 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-information .component-3.text {
-    margin-bottom: 30px !important;
+    margin-bottom: 10px !important;
     font-size: 16px !important;
   }
 }
@@ -4619,7 +4622,7 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-information .button-cont {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 }
 .section-information .button-cont a {
@@ -4633,7 +4636,8 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-information .button-cont a {
-    font-size: 20px !important;
+    padding: 10px 60px 10px 38px !important;
+    font-size: 18px !important;
   }
 }
 .section-information .button-cont a:hover {
@@ -4653,6 +4657,13 @@ body,
   border-right: 2px solid #fff;
   transform: rotate(45deg);
   content: "";
+}
+@media (max-width: 767.98px) {
+  .section-information .button-cont a:after {
+    right: 28px;
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .footer {
