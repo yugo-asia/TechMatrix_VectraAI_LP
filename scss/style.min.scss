@@ -305,6 +305,10 @@ body,
 
 
   .component-4 {
+    @media (min-width: 1950px) {
+      bottom: -7vw;
+    }
+
     position: absolute;
     right: 0;
     bottom: -66px;
@@ -317,6 +321,10 @@ body,
     background-size: cover;
 
     img {
+      @media (min-width: 1950px) {
+        width: 6.4vw !important;
+      }
+
       width: 161px !important;
     }
   }

@@ -4312,8 +4312,18 @@ body,
   text-align: center;
   background-size: cover;
 }
+@media (min-width: 1950px) {
+  .section-intro .component-4 {
+    bottom: -7vw;
+  }
+}
 .section-intro .component-4 img {
   width: 161px !important;
+}
+@media (min-width: 1950px) {
+  .section-intro .component-4 img {
+    width: 6.4vw !important;
+  }
 }
 .section-intro .lead {
   font-size: 24px !important;
