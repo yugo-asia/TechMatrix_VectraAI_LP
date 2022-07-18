@@ -4454,6 +4454,7 @@ body,
   position: relative;
   padding-bottom: 21px;
   background-color: #3a6f33;
+  transition: 0.3s;
 }
 @media (min-width: 768px) {
   .section-function .list-function .col {
@@ -4465,6 +4466,13 @@ body,
   .section-function .list-function .col {
     margin-bottom: 50px;
   }
+}
+.section-function .list-function .col:hover {
+  background-color: #4a8c2b;
+}
+.section-function .list-function .col:hover:after {
+  border-top-color: #4a8c2b;
+  transition: 0.3s;
 }
 .section-function .list-function .col:after {
   position: absolute;

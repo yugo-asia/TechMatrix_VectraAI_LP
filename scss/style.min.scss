@@ -494,6 +494,7 @@ body,
       position: relative;
       padding-bottom: 21px;
       background-color: #3a6f33;
+      transition: .3s;
 
       @include media-breakpoint-up(md) {
         margin-right: 13px;
@@ -502,6 +503,15 @@ body,
 
       @include media-breakpoint-down(md) {
         margin-bottom: 50px;
+      }
+
+      &:hover {
+        background-color: #4a8c2b;
+
+        &:after {
+          border-top-color: #4a8c2b;
+          transition: .3s;
+        }
       }
 
       &:after {
