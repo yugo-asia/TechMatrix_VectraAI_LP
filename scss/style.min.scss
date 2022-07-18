@@ -127,7 +127,7 @@ body,
 
   a {
     img {
-      @media (max-width: 768px) {
+      @include media-breakpoint-down(md) {
         width: 335px !important;
       }
     }
@@ -658,7 +658,7 @@ body,
 
 //----------------------------------------------
 .footer {
-  @media (max-width: 768px) {
+  @include media-breakpoint-down(md) {
     padding: 5px 0 50px !important;
   }
 

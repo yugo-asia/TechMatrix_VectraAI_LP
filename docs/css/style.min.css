@@ -4144,7 +4144,7 @@ body,
 .btn-fixed.btn-fixed-yellow .button-cont a:hover {
   background-color: #ffe771 !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .btn-fixed a img {
     width: 335px !important;
   }
@@ -4592,7 +4592,7 @@ body,
   line-height: 1.778;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .footer {
     padding: 5px 0 50px !important;
   }
