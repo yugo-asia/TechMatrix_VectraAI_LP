@@ -4343,7 +4343,7 @@ body,
 @media (min-width: 1400px) {
   .section-intro:after {
     bottom: -14vw;
-    height: 14;
+    height: 14vw;
   }
 }
 .section-intro .component-4 {
