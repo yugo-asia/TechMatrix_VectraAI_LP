@@ -422,7 +422,6 @@ body,
   }
 }
 
-
 //----------------------------------------------
 // Admin page
 // If .sp is display: none;, can not edit mobile html on admin page.
@@ -437,14 +436,23 @@ body,
   padding-top: 59px !important;
   padding-bottom: 105px !important;
   background: url("https://ferret-one.akamaized.net/images/62d4d5fad1ccd121ba487b99/original.jpeg?utime=1658115578") 50% 50%/cover no-repeat;
-  
+
+  @include media-breakpoint-down(md) {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+  }
+
   a {
     display: block;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none !important;
 
     img {
       width: auto !important;
+
+      @include media-breakpoint-down(md) {
+        max-width: 80px !important;
+      }
     }
   }
 
@@ -453,6 +461,11 @@ body,
     font-size: 36px !important;
     line-height: 1.444 !important;
     color: #3a6f33;
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 30px !important;
+      font-size: 28px !important;
+    }
   }
 
   .richtext {
@@ -464,6 +477,12 @@ body,
         font-size: 24px;
         line-height: 1.458;
         color: #fff;
+
+        @include media-breakpoint-down(md) {
+          margin-top: 15px;
+          margin-bottom: 12px;
+          font-size: 20px;
+        }
       }
     }
   }
@@ -474,21 +493,19 @@ body,
       justify-content: center;
     }
 
-<<<<<<< HEAD
     .col {
       position: relative;
       padding-bottom: 21px;
-      margin-right: 13px;
-      margin-left: 13px;
-=======
-    // .col {
-    //   width: calc(33.3333333333% - 20px) !important;
-    //   background-color: #3a6f33;
-    // }
-
-    .component {
->>>>>>> adjust
       background-color: #3a6f33;
+
+      @include media-breakpoint-up(md) {
+        margin-right: 13px;
+        margin-left: 13px;
+      }
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 50px;
+      }
 
       &:after {
         position: absolute;
@@ -503,6 +520,11 @@ body,
         border-width: 43px 23.5px 0 23.5px;
         border-color: #3a6f33 transparent transparent transparent;
         content: "";
+
+        @include media-breakpoint-down(md) {
+          bottom: -35px;
+          border-width: 35px 20px 0 20px;
+        }
       }
     }
   }

@@ -4396,27 +4396,41 @@ body,
   display: block !important;
 }
 
-<<<<<<< HEAD
 .section-function {
   padding-top: 59px !important;
   padding-bottom: 105px !important;
   background: url("https://ferret-one.akamaized.net/images/62d4d5fad1ccd121ba487b99/original.jpeg?utime=1658115578") 50% 50%/cover no-repeat;
 }
-=======
->>>>>>> adjust
+@media (max-width: 767.98px) {
+  .section-function {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+  }
+}
 .section-function a {
   display: block;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .section-function a img {
   width: auto !important;
+}
+@media (max-width: 767.98px) {
+  .section-function a img {
+    max-width: 80px !important;
+  }
 }
 .section-function h2 {
   margin-bottom: 36px !important;
   font-size: 36px !important;
   line-height: 1.444 !important;
   color: #3a6f33;
+}
+@media (max-width: 767.98px) {
+  .section-function h2 {
+    margin-bottom: 30px !important;
+    font-size: 28px !important;
+  }
 }
 .section-function .richtext p a {
   margin-top: 16px;
@@ -4426,22 +4440,34 @@ body,
   line-height: 1.458;
   color: #fff;
 }
+@media (max-width: 767.98px) {
+  .section-function .richtext p a {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+}
 @media (min-width: 768px) {
   .section-function .list-function {
     display: flex;
     justify-content: center;
   }
 }
-<<<<<<< HEAD
 .section-function .list-function .col {
   position: relative;
   padding-bottom: 21px;
-  margin-right: 13px;
-  margin-left: 13px;
-=======
-.section-function .list-function .component {
->>>>>>> adjust
   background-color: #3a6f33;
+}
+@media (min-width: 768px) {
+  .section-function .list-function .col {
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+}
+@media (max-width: 767.98px) {
+  .section-function .list-function .col {
+    margin-bottom: 50px;
+  }
 }
 .section-function .list-function .col:after {
   position: absolute;
@@ -4456,5 +4482,11 @@ body,
   border-width: 43px 23.5px 0 23.5px;
   border-color: #3a6f33 transparent transparent transparent;
   content: "";
+}
+@media (max-width: 767.98px) {
+  .section-function .list-function .col:after {
+    bottom: -35px;
+    border-width: 35px 20px 0 20px;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */
