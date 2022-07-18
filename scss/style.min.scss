@@ -352,14 +352,14 @@ body,
 .section-intro {
   position: relative;
   padding-top: 78px !important;
-  padding-bottom: 244px !important;
+  padding-bottom: 250px !important;
   background-color: #eaeaea;
 
 
   .component-4 {
     position: absolute;
     right: 52px;
-    bottom: -300px;
+    bottom: -355px;
     left: 0;
     z-index: 1;
     margin-right: auto !important;
@@ -367,17 +367,6 @@ body,
     width: 162px;
     height: 332px;
     background-size: cover;
-  }
-
-  &:after {
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 244px;
-    background: url("https://ferret-one.akamaized.net/images/62d4c841d1ccd11f2b486af6/original.svg?utime=1658112065") 50% 100% no-repeat;
-    background-size: cover;
-    content: "";
   }
 
   .lead {
@@ -416,6 +405,23 @@ body,
   }
 }
 
+.section-recommend {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 244px;
+    background: url("https://ferret-one.akamaized.net/images/62d4c841d1ccd11f2b486af6/original.svg?utime=1658112065") 50% 100% no-repeat;
+    background-size: cover;
+    content: "";
+  }
+}
+
 
 //----------------------------------------------
 // Admin page
@@ -431,11 +437,11 @@ body,
   padding-top: 59px !important;
   padding-bottom: 105px !important;
   background: url("https://ferret-one.akamaized.net/images/62d4d5fad1ccd121ba487b99/original.jpeg?utime=1658115578") 50% 50%/cover no-repeat;
-
+  
   a {
     display: block;
     text-align: center;
-    text-decoration: none !important;
+    text-decoration: none;
 
     img {
       width: auto !important;
@@ -468,11 +474,20 @@ body,
       justify-content: center;
     }
 
+<<<<<<< HEAD
     .col {
       position: relative;
       padding-bottom: 21px;
       margin-right: 13px;
       margin-left: 13px;
+=======
+    // .col {
+    //   width: calc(33.3333333333% - 20px) !important;
+    //   background-color: #3a6f33;
+    // }
+
+    .component {
+>>>>>>> adjust
       background-color: #3a6f33;
 
       &:after {
