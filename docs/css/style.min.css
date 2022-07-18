@@ -4520,4 +4520,18 @@ body,
     border-width: 35px 20px 0 20px;
   }
 }
+
+.section-common h3 {
+  font-size: 36px !important;
+  font-weight: bold;
+  line-height: 1.278;
+  text-align: center;
+  color: #000;
+}
+.section-common .lead {
+  font-size: 18px;
+  line-height: 1.944;
+  text-align: center;
+  color: #333;
+}
 /*# sourceMappingURL=style.min.css.map */
