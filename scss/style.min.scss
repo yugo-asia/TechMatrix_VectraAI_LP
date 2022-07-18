@@ -456,11 +456,9 @@ body,
   .list-recommend {
     margin-top: 25px;
 
-    .row {
-      .col {
-        .component.heading h3 {
-          font-size: 20px !important;
-        }
+    .col {
+      .component.heading h3 {
+        font-size: 20px !important;
       }
     }
 

@@ -4423,7 +4423,7 @@ body,
 .section-recommend .list-recommend {
   margin-top: 25px;
 }
-.section-recommend .list-recommend .row .col .component.heading h3 {
+.section-recommend .list-recommend .col .component.heading h3 {
   font-size: 20px !important;
 }
 .section-recommend .list-recommend .component p {
