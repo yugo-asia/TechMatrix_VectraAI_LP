@@ -455,9 +455,17 @@ body,
 
   .list-recommend {
     margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1105px;
 
     .col {
+      padding-right: 14px;
+      padding-left: 14px;
+      border-left: 1px solid #707070;
+
       .component.heading h3 {
+        margin-top: 10px;
         font-size: 20px !important;
       }
     }
