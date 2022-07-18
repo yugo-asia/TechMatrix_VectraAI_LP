@@ -4724,6 +4724,13 @@ body,
     padding: 0 0 20px !important;
   }
 }
+.section-inquiries .title h3 {
+  font-size: 36px;
+  margin-top: 39px;
+  margin-bottom: 23px;
+  line-height: 1.45;
+  color: #fff;
+}
 @media (max-width: 768px) {
   .section-inquiries .title h3 {
     margin-top: 0;
@@ -4739,6 +4746,7 @@ body,
   font-weight: 500 !important;
   line-height: 1.75 !important;
   letter-spacing: 0;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .section-inquiries .lead p {
@@ -4761,6 +4769,8 @@ body,
   padding: 29px 0 34px !important;
   border-radius: 10px !important;
   width: 654px;
+  font-size: 24px;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .section-inquiries .btn-inquiries .button-cont a {
