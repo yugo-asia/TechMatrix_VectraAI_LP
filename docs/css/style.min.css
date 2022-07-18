@@ -4590,9 +4590,9 @@ body,
   color: #000;
 }
 .section-common .lead {
-  font-size: 18px;
+  font-size: 18px !important;
   line-height: 1.944;
-  text-align: center;
+  text-align: center !important;
   color: #333;
 }
 .section-common .inner {
@@ -4604,7 +4604,7 @@ body,
 .section-common .point-number {
   text-align: center;
 }
-.section-common .point-number img {
+.section-common img {
   width: auto !important;
 }
 

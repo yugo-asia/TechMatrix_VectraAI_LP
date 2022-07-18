@@ -634,9 +634,9 @@ body,
   }
 
   .lead {
-    font-size: 18px;
+    font-size: 18px !important;
     line-height: 1.944;
-    text-align: center;
+    text-align: center !important;
     color: #333;
   }
 
@@ -652,10 +652,10 @@ body,
 
   .point-number {
     text-align: center;
+  }
 
-    img {
-      width: auto !important;
-    }
+  img {
+    width: auto !important;
   }
 }
 
