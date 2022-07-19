@@ -1108,15 +1108,21 @@ body,
   }
 
   .media-left {
-    width: 23%;
-    padding-left: 37px !important;
-    padding-right: 8px !important;
+    width: 23% !important;
+    padding-left: 37px;
+    padding-right: 8px;
+
+    image {
+      img {
+        width: 100% !important;
+      }
+    }
   }
 
   .media-right {
-    width: 77%;
-    padding-left: 0 !important;
-    padding-right: 50px !important;
+    width: 77% !important;
+    padding-left: 0;
+    padding-right: 50px;
   }
 
   .richtext {
