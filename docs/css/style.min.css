@@ -5015,7 +5015,7 @@ body,
 
 .section-download {
   padding-top: 88px !important;
-  padding-bottom: 74px !important;
+  padding-bottom: 88px !important;
 }
 @media (max-width: 767.98px) {
   .section-download {
@@ -5031,6 +5031,7 @@ body,
     max-width: 1200px !important;
     padding-left: 50px !important;
     padding-right: 46px !important;
+    padding-bottom: 59px !important;
   }
 }
 @media (max-width: 767.98px) {
@@ -5041,9 +5042,23 @@ body,
 .section-download .row.border-bottom-dotted {
   display: flex;
   border-bottom: 1px dotted #ffe771;
+  padding: 16px 0 8px;
 }
 .section-download .row.border-bottom-dotted .col {
   display: block;
+}
+@media (min-width: 768px) {
+  .section-download .row.row-3 {
+    padding-bottom: 23px;
+  }
+}
+.section-download .row.row-4 {
+  border-bottom: 0;
+}
+@media (min-width: 768px) {
+  .section-download .row.row-4 {
+    padding-top: 19px;
+  }
 }
 .section-download .row .col {
   padding: 0;
@@ -5051,7 +5066,7 @@ body,
 .section-download .title h3 {
   font-size: 36px !important;
   margin-top: 19px;
-  margin-bottom: 20px !important;
+  margin-bottom: 5px !important;
   line-height: 1.45 !important;
   letter-spacing: 0 !important;
   color: #fff;
@@ -5106,7 +5121,7 @@ body,
   letter-spacing: 0;
 }
 .section-download .btn-download {
-  margin: 5px 0 0 !important;
+  margin-top: 32px !important;
 }
 @media (max-width: 767.98px) {
   .section-download .btn-download {

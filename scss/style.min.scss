@@ -1105,7 +1105,7 @@ body,
 //----------------------------------------------
 .section-download {
   padding-top: 88px !important;
-  padding-bottom: 74px !important;
+  padding-bottom: 88px !important;
 
   @include media-breakpoint-down(md) {
     padding-top: 20px !important;
@@ -1119,6 +1119,7 @@ body,
       max-width: 1200px !important;
       padding-left: 50px !important;
       padding-right: 46px !important;
+      padding-bottom: 59px !important;
     }
   }
 
@@ -1130,9 +1131,24 @@ body,
     &.border-bottom-dotted {
       display: flex;
       border-bottom: 1px dotted #ffe771;
+      padding: 16px 0 8px;
 
       .col {
         display: block;
+      }
+    }
+
+    &.row-3 {
+      @include media-breakpoint-up(md) {
+        padding-bottom: 23px;
+      }
+    }
+
+    &.row-4 {
+      border-bottom: 0;
+
+      @include media-breakpoint-up(md) {
+        padding-top: 19px;
       }
     }
 
@@ -1145,7 +1161,7 @@ body,
     h3 {
       font-size: 36px !important;
       margin-top: 19px;
-      margin-bottom: 20px !important;
+      margin-bottom: 5px !important;
       line-height: 1.45 !important;
       letter-spacing: 0 !important;
       color: #fff;
@@ -1208,7 +1224,7 @@ body,
   }
 
   .btn-download {
-    margin: 5px 0 0 !important;
+    margin-top: 32px !important;
 
     @include media-breakpoint-down(md) {
       margin: 0 !important;
