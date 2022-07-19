@@ -1135,8 +1135,7 @@ body,
 
   .media-left {
     width: 23% !important;
-    padding-left: 37px;
-    padding-right: 8px;
+    padding: 0;
 
     image {
       img {
@@ -1148,8 +1147,9 @@ body,
   .media-right {
     width: 77% !important;
     padding-left: 0;
-    padding-right: 50px;
+    padding-right: 0;
     padding-top: 8px;
+    padding-bottom: 0;
 
     h3 {
       font-size: 24px !important;
