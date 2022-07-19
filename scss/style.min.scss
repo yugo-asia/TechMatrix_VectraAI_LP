@@ -1098,6 +1098,7 @@ body,
     background-color: #4a8c2b;
 
     @include media-breakpoint-up(md) {
+      max-width: 1200px !important;
       padding-left: 30px !important;
       padding-right: 30px !important;
     }
