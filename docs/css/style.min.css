@@ -5030,8 +5030,11 @@ body,
   .section-download .inner {
     max-width: 1200px !important;
     padding-left: 50px !important;
-    padding-right: 50px !important;
+    padding-right: 46px !important;
   }
+}
+.section-download .row {
+  display: flex;
 }
 @media (max-width: 767.98px) {
   .section-download .row {
@@ -5043,6 +5046,7 @@ body,
 }
 .section-download .row .col {
   padding: 0;
+  display: block;
 }
 .section-download .title h3 {
   font-size: 36px !important;
@@ -5073,8 +5077,9 @@ body,
   width: 100% !important;
 }
 .section-download .media-right {
-  width: calc(100% - 231px) !important;
+  width: calc(100% - 226px) !important;
   padding-top: 8px !important;
+  margin-left: -5px;
 }
 .section-download .media-right h3 {
   font-size: 24px !important;
@@ -5089,13 +5094,16 @@ body,
 .section-download .media-right h4 {
   font-size: 24px !important;
   color: #fff;
-  margin-bottom: 17px !important;
+  margin-bottom: 15px !important;
   letter-spacing: 0 !important;
 }
 .section-download .media-right p {
   font-size: 16px !important;
   color: #fff;
   margin-left: 5px !important;
+  line-height: 1.8 !important;
+  font-weight: 500;
+  letter-spacing: 0;
 }
 .section-download .btn-download {
   margin: 5px 0 0 !important;
