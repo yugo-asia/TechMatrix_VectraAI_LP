@@ -966,7 +966,7 @@ body,
 
 //----------------------------------------------
 .section-difference {
-  @include media-breakpoint-up() {
+  @include media-breakpoint-up(md) {
     padding-top: 125px !important;
     padding-bottom: 50px !important;
   }
