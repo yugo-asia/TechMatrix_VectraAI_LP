@@ -1132,6 +1132,10 @@ body,
         display: flex;
       }
 
+      @include media-breakpoint-down(md) {
+        padding: 15px 0;
+      }
+
       .col {
         display: block;
       }
@@ -1205,6 +1209,10 @@ body,
       letter-spacing: 0 !important;
       padding-bottom: 3px;
       margin-bottom: 20px !important;
+
+      @include media-breakpoint-down(md) {
+        font-size: 16px !important;
+      }
     }
 
     h4 {
@@ -1212,6 +1220,10 @@ body,
       color: #fff;
       margin-bottom: 15px !important;
       letter-spacing: 0 !important;
+
+      @include media-breakpoint-down(md) {
+        font-size: 16px !important;
+      }
     }
 
     p {
@@ -1221,6 +1233,10 @@ body,
       line-height: 1.8 !important;
       font-weight: 500;
       letter-spacing: 0;
+
+      @include media-breakpoint-down(md) {
+        font-size: 14px !important;
+      }
     }
   }
 
