@@ -1007,6 +1007,13 @@ body,
     padding-bottom: 20px !important;
   }
 
+  .inner {
+    @include media-breakpoint-up(md) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
   .row {
     background-color: #4a8c2b;
 
@@ -1016,7 +1023,7 @@ body,
 
     &.row-1 {
       .col-1 {
-        @media (min-width: 769px) {
+        @include media-breakpoint-up(md) {
           padding: 0 50px !important;
         }
 
@@ -1032,7 +1039,7 @@ body,
             line-height: 1.45 !important;
             letter-spacing: 0 !important;
             color: #fff;
-            padding-bottom: 29px;
+            padding-bottom: 26px;
             border-bottom: 1px solid #fff;
 
             @include media-breakpoint-down(md) {
@@ -1047,7 +1054,7 @@ body,
 
     &.row-2 {
       .col-1 {
-        @media (min-width: 769px) {
+        @include media-breakpoint-up(md) {
           padding-left: 50px !important;
           padding-right: 30px !important;
         }
@@ -1058,27 +1065,27 @@ body,
       }
 
       .col-2 {
-        @media (min-width: 769px) {
+        @include media-breakpoint-up(md) {
           padding-left: 39px !important;
           padding-right: 50px !important;
         }
 
         .heading {
           h4 {
-            @media (min-width: 769px) {
+            @include media-breakpoint-up(md) {
               margin-bottom: 12px;
             }
           }
         }
 
         .media-left {
-          @media (min-width: 769px) {
+          @include media-breakpoint-up(md) {
             width: 280px;
           }
         }
 
         .media-right {
-          @media (min-width: 769px) {
+          @include media-breakpoint-up(md) {
             width: 235px;
           }
         }
@@ -1103,7 +1110,7 @@ body,
 
   .heading {
     h4 {
-      @media (min-width: 769px) {
+      @include media-breakpoint-up(md) {
         margin-top: 19px !important;
         margin-bottom: 19px !important;
       }
