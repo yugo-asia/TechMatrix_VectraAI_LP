@@ -4217,7 +4217,7 @@ body,
 }
 
 .section-fv {
-  padding-top: 21px !important;
+  padding-top: 11px !important;
   padding-bottom: 25px !important;
 }
 @media (max-width: 767.98px) {
@@ -5032,6 +5032,11 @@ body,
     padding-left: 50px !important;
     padding-right: 46px !important;
     padding-bottom: 59px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .section-download .inner {
+    width: calc(100% - 40px);
   }
 }
 .section-download .row.border-bottom-dotted {
