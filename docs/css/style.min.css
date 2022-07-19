@@ -4614,6 +4614,11 @@ body,
 .section-common .point-number {
   text-align: center;
 }
+@media (max-width: 767.98px) {
+  .section-common .point-number img {
+    max-width: 180px !important;
+  }
+}
 .section-common .point-image {
   text-align: center;
 }
@@ -4645,8 +4650,9 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-common .point-note h3 {
-    padding: 18px 73px 18px 64px;
-    margin-top: 30px;
+    padding: 12px 73px 12px 64px !important;
+    margin-top: 30px !important;
+    font-size: 18px !important;
   }
 }
 .section-common .point-note h3:before, .section-common .point-note h3:after {

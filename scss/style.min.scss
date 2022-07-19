@@ -660,6 +660,12 @@ body,
 
   .point-number {
     text-align: center;
+
+    @include media-breakpoint-down(md) {
+      img {
+        max-width: 180px !important;
+      }
+    }
   }
 
   .point-image {
@@ -693,8 +699,9 @@ body,
       }
 
       @include media-breakpoint-down(md) {
-        padding: 18px 73px 18px 64px;
-        margin-top: 30px;
+        padding: 12px 73px 12px 64px !important;
+        margin-top: 30px !important;
+        font-size: 18px !important;
       }
 
       &:before,
