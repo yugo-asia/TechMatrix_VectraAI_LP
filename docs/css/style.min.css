@@ -4303,7 +4303,7 @@ body,
 .section-intro .component-4 {
   position: absolute;
   right: 0;
-  bottom: -66px;
+  bottom: -15px;
   left: 0;
   z-index: 2;
   margin-right: auto !important;
@@ -4318,7 +4318,7 @@ body,
   }
 }
 .section-intro .component-4 img {
-  width: 161px !important;
+  width: 208px !important;
 }
 @media (min-width: 1950px) {
   .section-intro .component-4 img {

@@ -311,7 +311,7 @@ body,
 
     position: absolute;
     right: 0;
-    bottom: -66px;
+    bottom: -15px;
     left: 0;
     z-index: 2;
     margin-right: auto !important;
@@ -325,7 +325,7 @@ body,
         width: 6.4vw !important;
       }
 
-      width: 161px !important;
+      width: 208px !important;
     }
   }
 
@@ -640,7 +640,7 @@ body,
       line-height: 1.278;
       text-align: center;
       color: #000;
-  
+
       @include media-breakpoint-down(md) {
         margin-top: 30px !important;
         margin-bottom: 0 !important;
@@ -1131,7 +1131,7 @@ body,
     &.border-bottom-dotted {
       border-bottom: 1px dotted #ffe771;
       padding: 16px 0 8px;
-      
+
       @include media-breakpoint-up(md) {
         display: flex;
       }
@@ -1198,7 +1198,7 @@ body,
 
   .media-right {
     padding-top: 8px !important;
-    
+
     @include media-breakpoint-up(md) {
       width: calc(100% - 226px) !important;
       margin-left: -5px;
