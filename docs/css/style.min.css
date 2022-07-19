@@ -5036,7 +5036,7 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-download .inner {
-    width: calc(100% - 40px);
+    width: calc(100% - 40px) !important;
   }
 }
 .section-download .row.border-bottom-dotted {
