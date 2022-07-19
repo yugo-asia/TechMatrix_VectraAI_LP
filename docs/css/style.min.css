@@ -5025,7 +5025,7 @@ body,
   letter-spacing: 0 !important;
   color: #fff;
   padding-bottom: 26px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #ffe771;
 }
 @media (max-width: 767.98px) {
   .section-download .row.row-1 .col-1 .title h3 {
@@ -5033,6 +5033,9 @@ body,
     margin-top: 0;
     margin-bottom: 23px !important;
   }
+}
+.section-download.border-bottom-dotted {
+  border-bottom: 1px dotted #ffe771;
 }
 .section-download .rich-heading {
   margin-bottom: 5px !important;
@@ -5065,16 +5068,23 @@ body,
 .section-download .media-right h3 {
   font-size: 24px !important;
   color: #fff;
-  border-right: 8px solid #f8cf01;
+  border-left: 8px solid #f8cf01;
+  padding-left: 14px;
+  margin-left: 7px;
+  letter-spacing: 0 !important;
+  padding-bottom: 3px;
+  margin-bottom: 0px !important;
 }
 .section-download .media-right h4 {
   font-size: 24px !important;
   color: #fff;
+  margin-bottom: 17px !important;
+  letter-spacing: 0 !important;
 }
 .section-download .media-right p {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 16px !important;
   color: #fff;
+  margin-left: 5px !important;
 }
 .section-download .richtext p {
   line-height: 1.75 !important;
