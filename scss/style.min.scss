@@ -1118,11 +1118,13 @@ body,
     @include media-breakpoint-up(md) {
       max-width: 1200px !important;
       padding-left: 50px !important;
-      padding-right: 50px !important;
+      padding-right: 46px !important;
     }
   }
 
   .row {
+    display: flex;
+
     @include media-breakpoint-down(md) {
       padding: 0 20px 20px;
     }
@@ -1133,6 +1135,7 @@ body,
 
     .col {
       padding: 0;
+      display: block;
     }
   }
 
@@ -1170,8 +1173,9 @@ body,
   }
 
   .media-right {
-    width: calc(100% - 231px) !important;
+    width: calc(100% - 226px) !important;
     padding-top: 8px !important;
+    margin-left: -5px;
 
     h3 {
       font-size: 24px !important;
@@ -1187,7 +1191,7 @@ body,
     h4 {
       font-size: 24px !important;
       color: #fff;
-      margin-bottom: 17px !important;
+      margin-bottom: 15px !important;
       letter-spacing: 0 !important;
     }
 
@@ -1195,6 +1199,9 @@ body,
       font-size: 16px !important;
       color: #fff;
       margin-left: 5px !important;
+      line-height: 1.8 !important;
+      font-weight: 500;
+      letter-spacing: 0;
     }
   }
 
