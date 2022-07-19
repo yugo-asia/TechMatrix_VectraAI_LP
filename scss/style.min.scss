@@ -1086,7 +1086,7 @@ body,
 
 //----------------------------------------------
 .section-download {
-  padding-top: 68px !important;
+  padding-top: 88px !important;
   padding-bottom: 74px !important;
 
   @include media-breakpoint-down(md) {
@@ -1117,47 +1117,29 @@ body,
         @include media-breakpoint-down(md) {
           padding-top: 15px;
         }
-
-        .title {
-          h3 {
-            font-size: 36px !important;
-            margin-top: 39px;
-            margin-bottom: 20px !important;
-            line-height: 1.45 !important;
-            letter-spacing: 0 !important;
-            color: #fff;
-            padding-bottom: 26px;
-            border-bottom: 1px solid #ffe771;
-
-            @include media-breakpoint-down(md) {
-              font-size: 20px !important;
-              margin-top: 0;
-              margin-bottom: 23px !important;
-            }
-          }
-        }
       }
     }
-  }
 
-  &.border-bottom-dotted {
-    border-bottom: 1px dotted #ffe771;
-  }
-
-  .rich-heading {
-    margin-bottom: 5px !important;
-
-    @include media-breakpoint-down(md) {
-      margin-top: 0;
-      margin-bottom: 0 !important;
+    &.border-bottom-dotted {
+      border-bottom: 1px dotted #ffe771;
     }
   }
 
-  .heading {
-    h4 {
-      @include media-breakpoint-up(md) {
-        margin-top: 19px !important;
-        margin-bottom: 19px !important;
+  .title {
+    h3 {
+      font-size: 36px !important;
+      margin-top: 19px;
+      margin-bottom: 20px !important;
+      line-height: 1.45 !important;
+      letter-spacing: 0 !important;
+      color: #fff;
+      padding-bottom: 26px;
+      border-bottom: 1px solid #ffe771;
+
+      @include media-breakpoint-down(md) {
+        font-size: 20px !important;
+        margin-top: 0;
+        margin-bottom: 23px !important;
       }
     }
   }
@@ -1202,18 +1184,6 @@ body,
       font-size: 16px !important;
       color: #fff;
       margin-left: 5px !important;
-    }
-  }
-
-  .richtext {
-    p {
-      line-height: 1.75 !important;
-      font-weight: 500 !important;
-      letter-spacing: 0;
-
-      @include media-breakpoint-down(md) {
-        font-size: 14px !important;
-      }
     }
   }
 
