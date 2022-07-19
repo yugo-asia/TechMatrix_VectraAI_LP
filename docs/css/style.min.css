@@ -4993,14 +4993,14 @@ body,
     padding-bottom: 20px !important;
   }
 }
+.section-download .inner {
+  background-color: #4a8c2b;
+}
 @media (min-width: 768px) {
   .section-download .inner {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-}
-.section-download .row {
-  background-color: #4a8c2b;
 }
 @media (max-width: 767.98px) {
   .section-download .row {
