@@ -4964,7 +4964,7 @@ body,
 }
 @media (min-width: 768px) {
   .section-download .row.row-1 .col-1 {
-    padding: 0 50px !important;
+    padding: 0 45px 0 50px !important;
   }
 }
 @media (max-width: 767.98px) {
@@ -4975,7 +4975,7 @@ body,
 .section-download .row.row-1 .col-1 .title h3 {
   font-size: 36px !important;
   margin-top: 39px;
-  margin-bottom: 38px !important;
+  margin-bottom: 20px !important;
   line-height: 1.45 !important;
   letter-spacing: 0 !important;
   color: #fff;
@@ -5003,6 +5003,16 @@ body,
     margin-top: 19px !important;
     margin-bottom: 19px !important;
   }
+}
+.section-download .media-left {
+  width: 23%;
+  padding-left: 37px !important;
+  padding-right: 8px !important;
+}
+.section-download .media-right {
+  width: 77%;
+  padding-left: 0 !important;
+  padding-right: 50px !important;
 }
 .section-download .richtext p {
   line-height: 1.75 !important;
