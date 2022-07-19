@@ -5056,6 +5056,20 @@ body,
   padding-left: 0;
   padding-right: 50px;
 }
+.section-download .media-right h3 {
+  font-size: 24px !important;
+  color: #fff;
+  border-right: 8px solid #f8cf01;
+}
+.section-download .media-right h4 {
+  font-size: 24px !important;
+  color: #fff;
+}
+.section-download .media-right p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
 .section-download .richtext p {
   line-height: 1.75 !important;
   font-weight: 500 !important;

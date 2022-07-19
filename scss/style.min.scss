@@ -1156,6 +1156,23 @@ body,
     width: 77% !important;
     padding-left: 0;
     padding-right: 50px;
+
+    h3 {
+      font-size: 24px !important;
+      color: #fff;
+      border-right: 8px solid #f8cf01;
+    }
+
+    h4 {
+      font-size: 24px !important;
+      color: #fff;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+    }
   }
 
   .richtext {
