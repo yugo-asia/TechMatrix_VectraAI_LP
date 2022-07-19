@@ -979,3 +979,185 @@ body,
     line-height: 1.944 !important;
   }
 }
+
+//----------------------------------------------
+.section-download {
+  @include media-breakpoint-down(md) {
+    padding: 20px 0 !important;
+  }
+
+  .row {
+    background-color: #4a8c2b;
+
+    @include media-breakpoint-down(md) {
+      padding: 0 20px 20px;
+    }
+
+    &.row-1 {
+      .col-1 {
+        @media (min-width: 769px) {
+          padding: 0 50px !important;
+        }
+
+        @include media-breakpoint-down(md) {
+          padding-top: 15px;
+        }
+
+        .title {
+          h3 {
+            font-size: 36px !important;
+            margin-top: 39px;
+            margin-bottom: 38px !important;
+            line-height: 1.45 !important;
+            letter-spacing: 0 !important;
+            color: #fff;
+
+            @include media-breakpoint-down(md) {
+              font-size: 20px !important;
+              margin-top: 0;
+              margin-bottom: 23px !important;
+            }
+          }
+        }
+      }
+    }
+
+    &.row-2 {
+      .col-1 {
+        @media (min-width: 769px) {
+          padding-left: 50px !important;
+          padding-right: 30px !important;
+        }
+
+        @include media-breakpoint-down(md) {
+          margin-bottom: 30px;
+        }
+      }
+
+      .col-2 {
+        @media (min-width: 769px) {
+          padding-left: 39px !important;
+          padding-right: 50px !important;
+        }
+
+        .heading {
+          h4 {
+            @media (min-width: 769px) {
+              margin-bottom: 12px;
+            }
+          }
+        }
+
+        .media-left {
+          @media (min-width: 769px) {
+            width: 280px;
+          }
+        }
+
+        .media-right {
+          @media (min-width: 769px) {
+            width: 235px;
+          }
+        }
+      }
+    }
+
+    &.row-3 {
+      @include media-breakpoint-down(md) {
+        padding: 0 20px 30px !important;
+      }
+    }
+  }
+
+  .rich-heading {
+    margin-bottom: 5px !important;
+
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .heading {
+    h4 {
+      @media (min-width: 769px) {
+        margin-top: 19px !important;
+        margin-bottom: 19px !important;
+      }
+    }
+  }
+
+  .media-left {
+    width: 213px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px 0 -12px !important;
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      display: block;
+      margin: 0 auto !important;
+    }
+  }
+
+  .media-right {
+    width: 310px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 0 0 !important;
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      display: block;
+      margin: 0 auto !important;
+    }
+  }
+
+  .richtext {
+    p {
+      line-height: 1.75 !important;
+      font-weight: 500 !important;
+      letter-spacing: 0;
+
+      @include media-breakpoint-down(md) {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .btn-download {
+    margin: 5px 0 0 !important;
+
+    @include media-breakpoint-down(md) {
+      margin: 0 !important;
+    }
+
+    .button-cont {
+      a {
+        background-color: #f8cf01 !important;
+        background-image: url("https://ferret-one.akamaized.net/images/62c4ea7df9873c3d299257c1/original.png"), url("https://ferret-one.akamaized.net/images/62c4ea7721211d22cecd5595/original.png") !important;
+        background-position: left 39px center, right 29px center !important;
+        background-repeat: no-repeat, no-repeat !important;
+        padding: 22px 0 !important;
+        border-radius: 40px !important;
+        width: 430px;
+        font-size: 24px;
+        font-weight: bold;
+
+        @include media-breakpoint-down(md) {
+          width: 100%;
+          font-size: 16px !important;
+          padding: 14px 0 !important;
+          background-size: 30px auto, 12px auto !important;
+          background-position: left 30px center, right 30px center !important;
+        }
+
+        &:hover {
+          opacity: 1 !important;
+          background-color: #f8cf01 !important;
+        }
+      }
+    }
+
+  }
+}
