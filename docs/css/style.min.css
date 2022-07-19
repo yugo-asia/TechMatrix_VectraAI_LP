@@ -4806,7 +4806,7 @@ body,
   padding-top: 14px !important;
   padding-bottom: 51px !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .section-inquiries {
     padding: 0 0 20px !important;
   }
@@ -4819,8 +4819,9 @@ body,
   letter-spacing: 0 !important;
   color: #fff;
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .section-inquiries .title h3 {
+    font-size: 20px;
     margin-top: 0;
   }
 }
@@ -4835,7 +4836,7 @@ body,
   letter-spacing: 0 !important;
   color: #fff;
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .section-inquiries .lead {
     font-size: 14px !important;
   }
@@ -4843,7 +4844,7 @@ body,
 .section-inquiries .btn-inquiries {
   margin: 77px 0 0 !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .section-inquiries .btn-inquiries {
     margin-top: 30px !important;
   }
@@ -4859,7 +4860,7 @@ body,
   font-size: 24px;
   font-weight: bold;
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .section-inquiries .btn-inquiries .button-cont a {
     width: 100%;
     font-size: 16px !important;

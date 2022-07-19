@@ -889,7 +889,7 @@ body,
   padding-top: 14px !important;
   padding-bottom: 51px !important;
 
-  @media (max-width: 768px) {
+  @include media-breakpoint-down(md) {
     padding: 0 0 20px !important;
   }
 
@@ -902,7 +902,8 @@ body,
       letter-spacing: 0 !important;
       color: #fff;
 
-      @media (max-width: 768px) {
+      @include media-breakpoint-down(md) {
+        font-size: 20px;
         margin-top: 0;
       }
     }
@@ -919,7 +920,7 @@ body,
     letter-spacing: 0 !important;
     color: #fff;
 
-    @media (max-width: 768px) {
+    @include media-breakpoint-down(md) {
       font-size: 14px !important;
     }
   }
@@ -927,7 +928,7 @@ body,
   .btn-inquiries {
     margin: 77px 0 0 !important;
 
-    @media (max-width: 768px) {
+    @include media-breakpoint-down(md) {
       margin-top: 30px !important;
     }
 
@@ -943,7 +944,7 @@ body,
         font-size: 24px;
         font-weight: bold;
 
-        @media (max-width: 768px) {
+        @include media-breakpoint-down(md) {
           width: 100%;
           font-size: 16px !important;
           padding: 14px 0 !important;
