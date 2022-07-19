@@ -1125,9 +1125,12 @@ body,
 
   .row {
     &.border-bottom-dotted {
-      display: flex;
       border-bottom: 1px dotted #ffe771;
       padding: 16px 0 8px;
+      
+      @include media-breakpoint-up(md) {
+        display: flex;
+      }
 
       .col {
         display: block;

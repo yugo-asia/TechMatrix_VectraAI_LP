@@ -5035,9 +5035,13 @@ body,
   }
 }
 .section-download .row.border-bottom-dotted {
-  display: flex;
   border-bottom: 1px dotted #ffe771;
   padding: 16px 0 8px;
+}
+@media (min-width: 768px) {
+  .section-download .row.border-bottom-dotted {
+    display: flex;
+  }
 }
 .section-download .row.border-bottom-dotted .col {
   display: block;
