@@ -5026,6 +5026,9 @@ body,
 .section-download .row.border-bottom-dotted {
   border-bottom: 1px dotted #ffe771;
 }
+.section-download .row .col {
+  padding: 0;
+}
 .section-download .title h3 {
   font-size: 36px !important;
   margin-top: 19px;
