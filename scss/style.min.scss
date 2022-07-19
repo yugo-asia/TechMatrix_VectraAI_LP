@@ -1123,19 +1123,21 @@ body,
   }
 
   .row {
-    display: flex;
-
     @include media-breakpoint-down(md) {
       padding: 0 20px 20px;
     }
 
     &.border-bottom-dotted {
+      display: flex;
       border-bottom: 1px dotted #ffe771;
+
+      .col {
+        display: block;
+      }
     }
 
     .col {
       padding: 0;
-      display: block;
     }
   }
 

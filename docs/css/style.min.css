@@ -5033,20 +5033,20 @@ body,
     padding-right: 46px !important;
   }
 }
-.section-download .row {
-  display: flex;
-}
 @media (max-width: 767.98px) {
   .section-download .row {
     padding: 0 20px 20px;
   }
 }
 .section-download .row.border-bottom-dotted {
+  display: flex;
   border-bottom: 1px dotted #ffe771;
+}
+.section-download .row.border-bottom-dotted .col {
+  display: block;
 }
 .section-download .row .col {
   padding: 0;
-  display: block;
 }
 .section-download .title h3 {
   font-size: 36px !important;
