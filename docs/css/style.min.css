@@ -5057,17 +5057,13 @@ body,
 }
 .section-download .media-left {
   width: 231px !important;
-  padding: 0;
 }
-.section-download .media-left image img {
+.section-download .media-left .image img {
   width: 100% !important;
 }
 .section-download .media-right {
   width: calc(100% - 231px) !important;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 8px;
-  padding-bottom: 0;
+  padding-top: 8px !important;
 }
 .section-download .media-right h3 {
   font-size: 24px !important;
