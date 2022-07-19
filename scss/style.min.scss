@@ -671,10 +671,12 @@ body,
 
     h3 {
       position: relative;
-      padding: 18px 84px;
+      padding: 18px 100px 18px 84px;
       margin-top: 57px;
+      margin-bottom: 0 !important;
       font-size: 24px !important;
-      line-height: 1.458;
+      line-height: 1.458 !important;
+      letter-spacing: normal !important;
       text-align: left !important;
       color: #fff !important;
 
@@ -688,7 +690,8 @@ body,
       }
 
       &:before {
-        left: 0;
+        top: 24px;
+        left: 20px;
         width: 48px;
         height: 59px;
         vertical-align: top;
@@ -696,6 +699,10 @@ body,
       }
 
       &:after {
+        right: 19px;
+        bottom: -4px;
+        width: 77px;
+        height: 141px;
         background-image: url("https://ferret-one.akamaized.net/images/62d51cfa3b41060da34d3b72/original.svg?utime=1658133754");
       }
     }
