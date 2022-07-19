@@ -4582,7 +4582,17 @@ body,
   }
 }
 
-.section-common h3 {
+.section-common {
+  padding-bottom: 64px !important;
+}
+@media (max-width: 767.98px) {
+  .section-common {
+    padding-bottom: 40px !important;
+  }
+}
+.section-common .title-point h3 {
+  margin-top: 51px;
+  margin-bottom: 14px !important;
   font-size: 36px !important;
   font-weight: bold;
   line-height: 1.278;
@@ -4590,18 +4600,23 @@ body,
   color: #000;
 }
 @media (max-width: 767.98px) {
-  .section-common h3 {
+  .section-common .title-point h3 {
+    margin-top: 30px !important;
+    margin-bottom: 0 !important;
     font-size: 28px !important;
   }
 }
 .section-common .lead {
+  margin-bottom: 43px !important;
   font-size: 18px !important;
   line-height: 1.944;
+  letter-spacing: normal !important;
   text-align: center !important;
   color: #333;
 }
 @media (max-width: 767.98px) {
   .section-common .lead {
+    margin-bottom: 20px !important;
     font-size: 16px !important;
   }
 }
