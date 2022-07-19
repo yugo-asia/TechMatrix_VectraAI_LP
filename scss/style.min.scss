@@ -762,6 +762,17 @@ body,
       }
     }
   }
+
+  .component-6 {
+    &.note {
+      font-size: 12px !important;
+      color: #000;
+
+      @include media-breakpoint-up(md) {
+        margin-top: 7px !important;
+      }
+    }
+  }
 }
 
 // ----------------------------------------------

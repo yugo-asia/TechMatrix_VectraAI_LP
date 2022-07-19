@@ -4710,6 +4710,15 @@ body,
     height: 99px;
   }
 }
+.section-common .component-6.note {
+  font-size: 12px !important;
+  color: #000;
+}
+@media (min-width: 768px) {
+  .section-common .component-6.note {
+    margin-top: 7px !important;
+  }
+}
 
 .section-information {
   padding-top: 110px !important;
