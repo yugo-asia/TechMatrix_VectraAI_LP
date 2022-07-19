@@ -5058,6 +5058,11 @@ body,
 .section-download .media-left {
   width: 231px !important;
 }
+@media (min-width: 768px) {
+  .section-download .media-left {
+    transform: translateX(-13px);
+  }
+}
 .section-download .media-left .image img {
   width: 100% !important;
 }
@@ -5073,7 +5078,7 @@ body,
   margin-left: 7px;
   letter-spacing: 0 !important;
   padding-bottom: 3px;
-  margin-bottom: 0px !important;
+  margin-bottom: 20px !important;
 }
 .section-download .media-right h4 {
   font-size: 24px !important;
