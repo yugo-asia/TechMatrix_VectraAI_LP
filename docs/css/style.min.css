@@ -4821,8 +4821,9 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-inquiries .title h3 {
-    font-size: 20px;
+    font-size: 20px !important;
     margin-top: 0;
+    margin-bottom: 23px !important;
   }
 }
 .section-inquiries .lead {
