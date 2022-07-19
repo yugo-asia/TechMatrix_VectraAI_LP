@@ -1080,7 +1080,9 @@ body,
 
         .media-left {
           @include media-breakpoint-up(md) {
-            width: 280px;
+            img {
+              width: 231px !important;
+            }
           }
         }
 

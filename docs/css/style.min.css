@@ -4984,8 +4984,8 @@ body,
   }
 }
 @media (min-width: 768px) {
-  .section-download .row.row-2 .col-2 .media-left {
-    width: 280px;
+  .section-download .row.row-2 .col-2 .media-left img {
+    width: 231px !important;
   }
 }
 @media (min-width: 768px) {
