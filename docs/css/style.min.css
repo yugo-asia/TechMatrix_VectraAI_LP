@@ -4589,11 +4589,21 @@ body,
   text-align: center;
   color: #000;
 }
+@media (max-width: 767.98px) {
+  .section-common h3 {
+    font-size: 28px !important;
+  }
+}
 .section-common .lead {
   font-size: 18px !important;
   line-height: 1.944;
   text-align: center !important;
   color: #333;
+}
+@media (max-width: 767.98px) {
+  .section-common .lead {
+    font-size: 16px !important;
+  }
 }
 .section-common .inner {
   padding-top: 0 !important;
@@ -4628,20 +4638,41 @@ body,
   text-align: left !important;
   color: #fff !important;
 }
+@media (max-width: 991.98px) {
+  .section-common .point-note h3 {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .section-common .point-note h3 {
+    padding: 18px 73px 18px 64px;
+    margin-top: 30px;
+  }
+}
 .section-common .point-note h3:before, .section-common .point-note h3:after {
   position: absolute;
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   content: "";
 }
 .section-common .point-note h3:before {
-  top: 24px;
+  top: 0;
+  bottom: 0;
   left: 20px;
   width: 48px;
   height: 59px;
+  margin-top: auto;
+  margin-bottom: auto;
   vertical-align: top;
   background: url("https://ferret-one.akamaized.net/images/62d51d103b41060da34d3bff/original.svg?utime=1658133776");
+}
+@media (max-width: 767.98px) {
+  .section-common .point-note h3:before {
+    left: 15px;
+    width: 40px;
+    height: 49px;
+  }
 }
 .section-common .point-note h3:after {
   right: 19px;
@@ -4649,6 +4680,14 @@ body,
   width: 77px;
   height: 141px;
   background-image: url("https://ferret-one.akamaized.net/images/62d51cfa3b41060da34d3b72/original.svg?utime=1658133754");
+}
+@media (max-width: 767.98px) {
+  .section-common .point-note h3:after {
+    right: 15px;
+    bottom: -2px;
+    width: 54px;
+    height: 99px;
+  }
 }
 
 .section-information {

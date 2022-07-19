@@ -631,6 +631,10 @@ body,
     line-height: 1.278;
     text-align: center;
     color: #000;
+
+    @include media-breakpoint-down(md) {
+      font-size: 28px !important;
+    }
   }
 
   .lead {
@@ -638,6 +642,10 @@ body,
     line-height: 1.944;
     text-align: center !important;
     color: #333;
+
+    @include media-breakpoint-down(md) {
+      font-size: 16px !important;
+    }
   }
 
   .inner {
@@ -680,22 +688,40 @@ body,
       text-align: left !important;
       color: #fff !important;
 
+      @include media-breakpoint-down(lg) {
+        font-size: 20px !important;
+      }
+
+      @include media-breakpoint-down(md) {
+        padding: 18px 73px 18px 64px;
+        margin-top: 30px;
+      }
+
       &:before,
       &:after {
         position: absolute;
-        background-position: 50% 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-position: 50% 50% !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
         content: "";
       }
 
       &:before {
-        top: 24px;
+        top: 0;
+        bottom: 0;
         left: 20px;
         width: 48px;
         height: 59px;
+        margin-top: auto;
+        margin-bottom: auto;
         vertical-align: top;
         background: url("https://ferret-one.akamaized.net/images/62d51d103b41060da34d3bff/original.svg?utime=1658133776");
+
+        @include media-breakpoint-down(md) {
+          left: 15px;
+          width: 40px;
+          height: 49px;
+        }
       }
 
       &:after {
@@ -704,6 +730,13 @@ body,
         width: 77px;
         height: 141px;
         background-image: url("https://ferret-one.akamaized.net/images/62d51cfa3b41060da34d3b72/original.svg?utime=1658133754");
+
+        @include media-breakpoint-down(md) {
+          right: 15px;
+          bottom: -2px;
+          width: 54px;
+          height: 99px;
+        }
       }
     }
   }
