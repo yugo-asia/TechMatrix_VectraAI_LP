@@ -5159,7 +5159,7 @@ body,
 }
 .section-download .btn-download .button-cont a {
   background-color: #f8cf01 !important;
-  background-image: url("https://ferret-one.akamaized.net/images/62c4ea7df9873c3d299257c1/original.png"), url("https://ferret-one.akamaized.net/images/62c4ea7721211d22cecd5595/original.png") !important;
+  background-image: url("https://ferret-one.akamaized.net/images/62d65547d2e6490a3108634b/original.svg"), url("https://ferret-one.akamaized.net/images/62d65560d2e6490a31086412/original.svg") !important;
   background-position: left 39px center, right 29px center !important;
   background-repeat: no-repeat, no-repeat !important;
   padding: 22px 0 !important;
@@ -5167,6 +5167,7 @@ body,
   width: 430px;
   font-size: 24px;
   font-weight: bold;
+  color: #000;
 }
 @media (max-width: 767.98px) {
   .section-download .btn-download .button-cont a {
@@ -5179,6 +5180,6 @@ body,
 }
 .section-download .btn-download .button-cont a:hover {
   opacity: 1 !important;
-  background-color: #f8cf01 !important;
+  background-color: #fbe771 !important;
 }
 /*# sourceMappingURL=style.min.css.map */
