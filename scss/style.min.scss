@@ -966,16 +966,33 @@ body,
 
 //----------------------------------------------
 .section-difference {
-  padding-top: 125px !important;
+  @include media-breakpoint-up() {
+    padding-top: 125px !important;
+    padding-bottom: 50px !important;
+  }
+
+  padding-top: 50px !important;
+  padding-bottom: 35px !important;
 
   .component-1.heading h3 {
-    margin-bottom: 10px;
-    font-size: 36px !important;
+    @include media-breakpoint-up(md) {
+      font-size: 36px !important;
+    }
+
+    font-size: 22px !important;
+    margin-bottom: 10px !important;
   }
 
   .lead {
+    @include media-breakpoint-up(md) {
+      font-size: 18px !important;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 15px !important;
+    }
+
     margin-bottom: 44px !important;
-    font-size: 18px !important;
     line-height: 1.944 !important;
   }
 }
