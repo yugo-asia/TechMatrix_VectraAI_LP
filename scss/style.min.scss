@@ -773,6 +773,13 @@ body,
       }
     }
   }
+
+  .col {
+    @include media-breakpoint-up(md) {
+      padding-right: 9px !important;
+      padding-left: 9px !important;
+    }
+  }
 }
 
 // ----------------------------------------------
