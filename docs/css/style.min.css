@@ -4922,8 +4922,8 @@ body,
 }
 @media (min-width: 768px) {
   .section-download .inner {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
 .section-download .row {
