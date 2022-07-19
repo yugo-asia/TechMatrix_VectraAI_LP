@@ -1134,7 +1134,7 @@ body,
   }
 
   .media-left {
-    width: 23% !important;
+    width: 231px !important;
     padding: 0;
 
     image {
@@ -1145,7 +1145,7 @@ body,
   }
 
   .media-right {
-    width: 77% !important;
+    width: calc(100% - 231px) !important;
     padding-left: 0;
     padding-right: 0;
     padding-top: 8px;
