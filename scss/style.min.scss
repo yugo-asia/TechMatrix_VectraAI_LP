@@ -412,7 +412,7 @@ body,
     max-width: 1105px;
 
     .col {
-      @include media-breakpoint-up(md) {
+      @media (min-width: 770px) {
         padding-right: 14px;
         padding-left: 14px;
       }

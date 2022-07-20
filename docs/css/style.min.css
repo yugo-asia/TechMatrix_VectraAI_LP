@@ -4401,7 +4401,7 @@ body,
   margin-left: auto;
   max-width: 1105px;
 }
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .section-recommend .list-recommend .col {
     padding-right: 14px;
     padding-left: 14px;
