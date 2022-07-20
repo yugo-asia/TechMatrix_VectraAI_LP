@@ -587,8 +587,10 @@ body,
       transition: .3s;
 
       @include media-breakpoint-up(md) {
-        margin-right: 13px;
-        margin-left: 13px;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        margin-right: 13px !important;
+        margin-left: 13px !important;
       }
 
       @include media-breakpoint-down(md) {
