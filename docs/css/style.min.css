@@ -4339,7 +4339,7 @@ body,
 }
 @media (min-width: 769px) {
   .section-intro .lead {
-    padding-right: 152px;
+    padding-right: 152px !important;
   }
 }
 @media (min-width: 769px) {
