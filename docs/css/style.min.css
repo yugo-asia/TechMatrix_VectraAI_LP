@@ -4522,8 +4522,9 @@ body,
   }
 }
 .section-function .richtext p a {
-  margin-top: 16px;
-  margin-bottom: 18px;
+  padding: 16px 10px 18px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.458;
@@ -4531,8 +4532,8 @@ body,
 }
 @media (max-width: 767.98px) {
   .section-function .richtext p a {
-    margin-top: 15px;
-    margin-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 12px;
     font-size: 20px;
   }
 }
@@ -4544,7 +4545,6 @@ body,
 }
 .section-function .list-function .col {
   position: relative;
-  padding-bottom: 21px;
   background-color: #3a6f33;
   transition: 0.3s;
 }
@@ -4587,6 +4587,9 @@ body,
     bottom: -35px;
     border-width: 35px 20px 0 20px;
   }
+}
+.section-function .list-function .col .icona {
+  padding-bottom: 21px;
 }
 
 .section-common {
