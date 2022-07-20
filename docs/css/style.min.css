@@ -4405,12 +4405,16 @@ body,
   .section-recommend .list-recommend .col {
     padding-right: 14px;
     padding-left: 14px;
-    border-left: 1px solid #707070;
   }
 }
 @media (max-width: 767.98px) {
   .section-recommend .list-recommend .col {
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 769px) {
+  .section-recommend .list-recommend .col {
+    border-left: 1px solid #707070;
   }
 }
 .section-recommend .list-recommend .col .component.heading h3 {
@@ -4449,7 +4453,7 @@ body,
 .section-recommend .list-recommend .col:nth-child(4) .component.heading h3:before {
   content: "❹";
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .section-recommend .list-recommend .col:last-child {
     border-right: 1px solid #707070;
   }
