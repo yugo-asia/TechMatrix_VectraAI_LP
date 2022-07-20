@@ -330,10 +330,6 @@ body,
   }
 
   .lead {
-    @include media-breakpoint-up(md) {
-      padding-right: 152px;
-    }
-
     @include media-breakpoint-down(md) {
       margin-bottom: 20px !important;
       font-size: 18px !important;
@@ -343,6 +339,10 @@ body,
     font-weight: bold;
     line-height: 1.667;
     letter-spacing: -.01em !important;
+
+    @media (min-width: 769px) {
+      padding-right: 152px;
+    }
   }
 
   .component-2 {
