@@ -4848,7 +4848,7 @@ body,
 .footer {
   background-color: #000;
   padding-top: 16px !important;
-  padding-bottom: 22px !important;
+  padding-bottom: 11px !important;
 }
 @media (max-width: 767.98px) {
   .footer {
