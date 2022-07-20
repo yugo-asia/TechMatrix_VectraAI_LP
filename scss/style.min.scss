@@ -346,7 +346,7 @@ body,
   }
 
   .component-2 {
-    @include media-breakpoint-up(md) {
+    @media (min-width: 769px) {
       margin-top: -77px !important;
     }
   }

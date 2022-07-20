@@ -4342,7 +4342,7 @@ body,
     font-size: 18px !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .section-intro .component-2 {
     margin-top: -77px !important;
   }
