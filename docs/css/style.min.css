@@ -4402,6 +4402,13 @@ body,
     font-size: 30px !important;
   }
 }
+.section-recommend .component-3 img {
+  width: auto !important;
+}
+.section-recommend .row-1 .col-1 {
+  padding-right: 9px !important;
+  padding-left: 9px !important;
+}
 .section-recommend .list-recommend {
   margin-top: 25px;
   margin-right: auto;

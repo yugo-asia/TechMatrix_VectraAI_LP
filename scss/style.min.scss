@@ -416,6 +416,19 @@ body,
     }
   }
 
+  .component-3 {
+    img {
+      width: auto !important;
+    }
+  }
+
+  .row-1 {
+    .col-1 {
+      padding-right: 9px !important;
+      padding-left: 9px !important;
+    }
+  }
+
   .list-recommend {
     margin-top: 25px;
     margin-right: auto;
