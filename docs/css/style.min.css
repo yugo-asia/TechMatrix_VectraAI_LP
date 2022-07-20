@@ -4550,7 +4550,10 @@ body,
 }
 @media (min-width: 768px) {
   .section-function .list-function .col {
-    padding: 0 !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    margin-right: 13px !important;
+    margin-left: 13px !important;
   }
 }
 @media (max-width: 767.98px) {
@@ -4584,9 +4587,6 @@ body,
     bottom: -35px;
     border-width: 35px 20px 0 20px;
   }
-}
-.section-function .list-function .icon {
-  padding-bottom: 10px;
 }
 .section-function .list-function a:hover, .section-function .list-function a:active, .section-function .list-function a:focus {
   background-color: #4a8c2b;
