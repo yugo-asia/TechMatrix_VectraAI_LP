@@ -4585,6 +4585,9 @@ body,
     border-width: 35px 20px 0 20px;
   }
 }
+.section-function .list-function .icon {
+  padding-bottom: 10px;
+}
 .section-function .list-function a:hover, .section-function .list-function a:active, .section-function .list-function a:focus {
   background-color: #4a8c2b;
 }
