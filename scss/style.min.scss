@@ -770,7 +770,8 @@ body,
       color: #000;
 
       @include media-breakpoint-up(md) {
-        margin-top: 7px !important;
+        margin-top: 9px !important;
+        letter-spacing: normal !important;
       }
     }
   }
