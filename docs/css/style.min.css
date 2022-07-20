@@ -5043,6 +5043,9 @@ body,
     font-size: 15px !important;
   }
 }
+.section-difference img {
+  width: auto !important;
+}
 
 .section-download {
   padding-top: 88px !important;
