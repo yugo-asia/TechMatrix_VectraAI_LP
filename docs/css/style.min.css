@@ -4116,7 +4116,7 @@ body,
 }
 @media (max-width: 767.98px) {
   .btn-fixed {
-    bottom: 64px;
+    bottom: 56px;
     top: auto;
     left: 0;
     right: 0;
@@ -4130,7 +4130,7 @@ body,
 @media (max-width: 767.98px) {
   .btn-fixed.btn-fixed-yellow {
     top: auto;
-    bottom: 16px;
+    bottom: 8px;
   }
 }
 .btn-fixed.btn-fixed-yellow .button-cont a {
