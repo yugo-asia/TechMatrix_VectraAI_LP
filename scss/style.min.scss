@@ -626,6 +626,14 @@ body,
         }
       }
     }
+
+    a {
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: #4a8c2b;
+      }
+    }
   }
 }
 
