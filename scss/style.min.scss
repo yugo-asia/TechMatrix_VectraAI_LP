@@ -583,6 +583,7 @@ body,
 
     .col {
       position: relative;
+      padding-bottom: 0 !important;
       background-color: #3a6f33;
       transition: .3s;
 
@@ -627,8 +628,12 @@ body,
       }
 
       .icon {
-        &a {
+        a {
           padding-bottom: 21px;
+
+          @include media-breakpoint-down(md) {
+            padding-bottom: 15px;
+          }
         }
       }
     }

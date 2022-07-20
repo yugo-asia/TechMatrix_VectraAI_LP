@@ -4545,6 +4545,7 @@ body,
 }
 .section-function .list-function .col {
   position: relative;
+  padding-bottom: 0 !important;
   background-color: #3a6f33;
   transition: 0.3s;
 }
@@ -4588,8 +4589,13 @@ body,
     border-width: 35px 20px 0 20px;
   }
 }
-.section-function .list-function .col .icona {
+.section-function .list-function .col .icon a {
   padding-bottom: 21px;
+}
+@media (max-width: 767.98px) {
+  .section-function .list-function .col .icon a {
+    padding-bottom: 15px;
+  }
 }
 
 .section-common {
