@@ -4347,6 +4347,13 @@ body,
     margin-top: -77px !important;
   }
 }
+.section-intro .component-2 img {
+  width: auto !important;
+}
+.section-intro .row-1 .col-1 {
+  padding-right: 9px !important;
+  padding-left: 9px !important;
+}
 .section-intro .inner {
   padding-bottom: 0 !important;
 }
