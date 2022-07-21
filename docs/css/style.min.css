@@ -4620,7 +4620,7 @@ body,
     padding-bottom: 40px !important;
   }
 }
-.section-common .title-point h3 {
+.section-common .title-point h2 {
   margin-top: 51px;
   margin-bottom: 14px !important;
   font-size: 36px !important;
@@ -4630,7 +4630,7 @@ body,
   color: #000;
 }
 @media (max-width: 767.98px) {
-  .section-common .title-point h3 {
+  .section-common .title-point h2 {
     margin-top: 30px !important;
     margin-bottom: 0 !important;
     font-size: 28px !important;
@@ -4769,7 +4769,7 @@ body,
     padding-bottom: 40px !important;
   }
 }
-.section-information h3 {
+.section-information h2 {
   padding-bottom: 28px;
   margin-bottom: 30px !important;
   font-size: 36px !important;
@@ -4777,7 +4777,7 @@ body,
   border-bottom: 1px solid #f8cf01;
 }
 @media (max-width: 767.98px) {
-  .section-information h3 {
+  .section-information h2 {
     padding-bottom: 10px;
     margin-bottom: 20px !important;
     font-size: 28px !important;
@@ -4948,7 +4948,7 @@ body,
     padding: 0 0 20px !important;
   }
 }
-.section-inquiries .title h3 {
+.section-inquiries .title h2 {
   font-size: 36px !important;
   margin-top: 39px;
   margin-bottom: 38px !important;
@@ -4957,7 +4957,7 @@ body,
   color: #fff;
 }
 @media (max-width: 767.98px) {
-  .section-inquiries .title h3 {
+  .section-inquiries .title h2 {
     font-size: 20px !important;
     margin-top: 0;
     margin-bottom: 23px !important;
@@ -5023,12 +5023,12 @@ body,
     padding-bottom: 50px !important;
   }
 }
-.section-difference .component-1.heading h3 {
+.section-difference .component-1.heading h2 {
   font-size: 22px !important;
   margin-bottom: 10px !important;
 }
 @media (min-width: 768px) {
-  .section-difference .component-1.heading h3 {
+  .section-difference .component-1.heading h2 {
     font-size: 36px !important;
   }
 }
@@ -5109,7 +5109,7 @@ body,
 .section-download .row .col {
   padding: 0;
 }
-.section-download .title h3 {
+.section-download .title h2 {
   font-size: 36px !important;
   margin-top: 19px;
   margin-bottom: 5px !important;
@@ -5120,7 +5120,7 @@ body,
   border-bottom: 1px dashed #ffe771;
 }
 @media (max-width: 767.98px) {
-  .section-download .title h3 {
+  .section-download .title h2 {
     font-size: 20px !important;
     margin-top: 0;
     padding-bottom: 15px;
