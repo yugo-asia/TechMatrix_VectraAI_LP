@@ -401,7 +401,7 @@ body,
   .component-1 {
     &.heading {
       &.title {
-        h3 {
+        h2 {
           @include media-breakpoint-down(md) {
             margin-bottom: 25px !important;
             font-size: 30px !important;
