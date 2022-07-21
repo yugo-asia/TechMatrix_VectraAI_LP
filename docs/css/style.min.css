@@ -4363,13 +4363,13 @@ body,
 .section-intro .component-3 {
   margin-top: 16px !important;
 }
-.section-intro .component-3 h3 {
+.section-intro .component-3 h2 {
   margin-bottom: 0 !important;
   font-size: 22px !important;
   color: #3a6f33;
 }
 @media (min-width: 768px) {
-  .section-intro .component-3 h3 {
+  .section-intro .component-3 h2 {
     font-size: 36px !important;
     line-height: 1.52 !important;
   }
