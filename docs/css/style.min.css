@@ -4083,6 +4083,9 @@ body,
   margin: 0;
 }
 
+.theme-fo-base a {
+  transition: 0.3s;
+}
 .theme-fo-base a:hover {
   opacity: 1;
 }
