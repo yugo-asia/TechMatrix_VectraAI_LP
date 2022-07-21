@@ -977,6 +977,10 @@ body,
             }
           }
 
+          &:after {
+            display: none;
+          }
+
           img {
             width: 154px !important;
           }
