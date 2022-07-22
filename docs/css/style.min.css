@@ -4249,6 +4249,11 @@ body,
 .section-fv .logo-vectra {
   text-align: right;
 }
+@media (min-width: 768px) {
+  .section-fv .logo-vectra {
+    margin-top: 5px !important;
+  }
+}
 @media (max-width: 767.98px) {
   .section-fv .logo-vectra {
     margin-top: 4px !important;
@@ -4258,19 +4263,19 @@ body,
   opacity: 0.6;
 }
 .section-fv .logo-vectra a img {
-  width: 208px !important;
+  width: 177px !important;
 }
 @media (max-width: 767.98px) {
   .section-fv .logo-vectra a img {
-    width: 116px !important;
+    width: 103px !important;
   }
 }
 .section-fv .main {
-  margin-top: 60px !important;
+  margin-top: 45px !important;
 }
 @media (max-width: 767.98px) {
   .section-fv .main {
-    margin-top: 24px !important;
+    margin-top: 18px !important;
   }
 }
 .section-fv .main img {
