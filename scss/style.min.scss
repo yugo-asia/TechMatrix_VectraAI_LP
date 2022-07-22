@@ -247,6 +247,10 @@ body,
   .logo-vectra {
     text-align: right;
 
+    @include media-breakpoint-up(md) {
+      margin-top: 5px !important;
+    }
+
     @include media-breakpoint-down(md) {
       margin-top: 4px !important;
     }
@@ -257,20 +261,20 @@ body,
       }
 
       img {
-        width: 208px !important;
+        width: 177px !important;
 
         @include media-breakpoint-down(md) {
-          width: 116px !important;
+          width: 103px !important;
         }
       }
     }
   }
 
   .main {
-    margin-top: 60px !important;
+    margin-top: 45px !important;
 
     @include media-breakpoint-down(md) {
-      margin-top: 24px !important;
+      margin-top: 18px !important;
     }
 
     img {
